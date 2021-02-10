@@ -1,17 +1,15 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 2 | @import "./utils/functions";
- *   |         ^^^^^^^^^^^^^^^^^^^
- *   '
- *   sass\main.scss 2:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @import \"./utils/functions\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\main.scss 2:9  root stylesheet";
+#section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 200px;
 }
+#section1 .fee {
+  width: 450px;
+  transform: scaleX(-1);
+}
+#section1 .fee2 {
+  width: 450px;
+}
+
+/*# sourceMappingURL=style.css.map */

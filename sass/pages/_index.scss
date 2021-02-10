@@ -1,0 +1,15 @@
+#section1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+
+    .fee{
+        width: 450px;
+        transform: scaleX(-1);       
+    }
+
+    .fee2{
+        width: 450px;
+    }
+}
