@@ -1,25 +1,63 @@
-body {
+@charset "UTF-8";
+/**Css page fée**/
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  margin-right: 10px;
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+/*Page index.html (Regroupe toute les autres pages*/
+.home_page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+.home_page .fee {
+  width: 450px;
+  transform: scaleX(-1);
+}
+.home_page .fee2 {
+  width: 450px;
+}
+
+#home_page {
   border: 0;
   margin: 0;
   background-image: url(../../public/img/background.jpg);
   background-size: cover;
 }
 
-#section1 {
+/*Page index.html (Regroupe toute les autres pages*/
+.home_page {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 200px;
 }
-#section1 .fee {
+.home_page .fee {
   width: 450px;
   transform: scaleX(-1);
 }
-#section1 .fee2 {
+.home_page .fee2 {
   width: 450px;
 }
-
-.titre {
+.home_page .title {
   font-size: 5rem;
   text-align: center;
   margin-bottom: 25px;
@@ -27,15 +65,337 @@ body {
   font-family: cursive;
   text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #efa032, 15px 15px 0px #46b59b, 20px 20px 0px #017e7f, 25px 25px 0px #052939, 30px 30px 0px #c11a2b;
 }
-
-.soustitre {
+.home_page .soustitre {
   margin-top: 0px;
   font-size: 2em;
   font-style: italic;
 }
-
-.center p {
+.home_page .center p {
   text-align: center;
+}
+.home_page .liste {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*Police Principal*/
+@font-face {
+  font-family: "Adriana";
+  src: url("../font/Adriana.ttf");
+}
+/*--------------------------------*/
+/*Police Gras*/
+@font-face {
+  font-family: "Adriana_italic";
+  src: url("../font/Adriana Italic.ttf");
+}
+/*--------------------------------*/
+body {
+  border: 0;
+  margin: 0;
+}
+
+/*Logo du site*/
+.logo {
+  width: 220px;
+  min-width: 100px;
+}
+
+/*--------------------------------*/
+/*Css général*/
+.font_italic {
+  font-family: "Adriana_italic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.font {
+  font-family: "Adriana", "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.fontparagraphe a {
+  font-family: cursive;
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Bouton aide*/
+.aide {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+}
+
+/*Menu principal*/
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+nav li {
+  margin-right: 20px;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.menucolor2 {
+  color: brown;
+}
+
+.menucolor1 {
+  color: purple;
+}
+
+.menucolor1:hover, .menucolor2:hover {
+  color: red;
+}
+
+.menuleft, .menuright {
+  display: flex;
+  flex-direction: row;
+}
+
+/*Block menu mobile cacher*/
+.checkbox-container {
+  display: none;
+}
+
+.menumobile, aside, #myInput {
+  display: none;
+}
+
+/*Banniere du site*/
+.banniere {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+/*Section 2 nos catégorie*/
+.detail h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center;
+  font-size: 5em;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.general {
+  width: 94%;
+  margin-left: 3%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 17px;
+  width: 20%;
+  margin-top: 2%;
+  margin-left: 55px;
+  padding: 5px;
+  box-shadow: 0 0 1em #d2d2d2;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  object-fit: cover;
+  height: 180px;
+}
+
+/*Formulaire de contact*/
+#section3 {
+  background-color: #cccfd8;
+  width: 100%;
+  height: 670px;
+  margin-top: 45px;
+}
+
+.mail, .message, .question, .prenom1, .nom1 {
+  margin-top: 15px;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: row;
+}
+
+input, textarea, select {
+  border-color: #ffffff;
+  border-radius: 23px;
+  border-style: double;
+  padding: 8px;
+  font-size: 15px;
+  box-shadow: 0px 0px 5px;
+}
+
+.button {
+  margin-top: 15px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.nom {
+  margin-left: 60px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social i {
+  font-size: 2.5em;
+  color: blue;
+}
+
+/*Section Meilleures vente du mois*/
+.grpavis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.avis {
+  background-color: white;
+  border-radius: 17px;
+  width: 15%;
+  height: 360px;
+  margin-top: 2%;
+  padding: 5px;
+  box-shadow: 0 0 1em #d2d2d2;
+}
+
+.avis img {
+  width: 65%;
+  border-radius: 100px;
+  margin-left: 50px;
+  object-fit: cover;
+  height: 180px;
+}
+
+.avis2 {
+  background-color: white;
+  border-radius: 17px;
+  width: 15%;
+  margin-top: 10%;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-shadow: 0 0 1em #d2d2d2;
+}
+
+.avis2 img {
+  width: 65%;
+  border-radius: 100px;
+  margin-left: 50px;
+  object-fit: cover;
+  height: 180px;
+}
+
+.textavis {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 2em;
+}
+
+.produit_mois {
+  text-decoration: none;
+  background-color: purple;
+  margin-right: 10px;
+  padding: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 50px;
+  color: white;
+  margin-left: 15px;
+  width: 160px;
+  margin-bottom: 15px;
+}
+
+.blockproduitmois {
+  height: 150px;
+  text-align: center;
+}
+
+.chiffretablette {
+  display: none;
+}
+
+/*Pied de page*/
+.footer {
+  height: 85px;
+  background-color: #cccfd8;
+}
+
+.footerright i {
+  font-size: 2.5em;
+  margin-right: 50px;
+  color: blue;
+  padding-top: 17px;
+}
+
+.footerright {
+  float: right;
+}
+
+.footerleft {
+  float: left;
+  margin-left: 50px;
+}
+
+.footergrey {
+  background-color: #cccfd8;
+}
+
+/*Page a propos*/
+.imageconstruction {
+  text-align: center;
+}
+
+.construction {
+  width: 50%;
+  margin-top: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */
