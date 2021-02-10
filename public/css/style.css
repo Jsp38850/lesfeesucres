@@ -4,6 +4,28 @@ body {
   margin: 0;
 }
 
+/*Pied de page*/
+.footer {
+  height: 85px;
+  background-color: white;
+}
+
+.footerright i {
+  font-size: 2.5em;
+  margin-right: 50px;
+  color: blue;
+  padding-top: 17px;
+}
+
+.footerright {
+  float: right;
+}
+
+.footerleft {
+  float: left;
+  margin-left: 50px;
+}
+
 /*Page index.html (Regroupe toute les autres pages*/
 #home_page {
   background-image: url(../../public/img/background.jpg);
@@ -150,6 +172,18 @@ nav li {
 }
 
 /*Section 2 nos catégorie*/
+#section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 500px;
+}
+
+.presentation {
+  width: 30%;
+  margin-top: 50px;
+}
+
 .detail h1 {
   text-align: center;
   text-decoration: underline;
@@ -250,32 +284,6 @@ label {
   color: blue;
 }
 
-/*Pied de page*/
-.footer {
-  height: 85px;
-  background-color: #cccfd8;
-}
-
-.footerright i {
-  font-size: 2.5em;
-  margin-right: 50px;
-  color: blue;
-  padding-top: 17px;
-}
-
-.footerright {
-  float: right;
-}
-
-.footerleft {
-  float: left;
-  margin-left: 50px;
-}
-
-.footergrey {
-  background-color: #cccfd8;
-}
-
 /*Page a propos*/
 .imageconstruction {
   text-align: center;
@@ -284,6 +292,11 @@ label {
 .construction {
   width: 50%;
   margin-top: 35px;
+}
+
+.image_profil img {
+  width: 550px;
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
