@@ -14,11 +14,7 @@
 
 /*--------------------------------*/
 
-body {
-    border: 0;
-    margin: 0;
-    
-}
+
 
 /*Logo du site*/
 .logo {
@@ -224,79 +220,7 @@ label{
     color: blue;
 }
 
-/*Section Meilleures vente du mois*/
 
-.grpavis {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.avis {
-    background-color: white;
-    border-radius: 17px;
-    width: 15%;
-    height: 360px;
-    margin-top: 2%;
-    padding: 5px;
-    box-shadow: 0 0 1em #d2d2d2;
-}
-
-.avis img {
-    width: 65%;
-    border-radius: 100px;
-    margin-left: 50px;
-    object-fit: cover;
-    height: 180px;
-}
-
-.avis2 {
-    background-color: white;
-    border-radius: 17px;
-    width: 15%;
-    margin-top: 10%;
-    margin-bottom: 20px;
-    padding: 5px;
-    box-shadow: 0 0 1em #d2d2d2;
-}
-
-.avis2 img {
-    width: 65%;
-    border-radius: 100px;
-    margin-left: 50px;
-    object-fit: cover;
-    height: 180px;
-}
-
-.textavis {
-    text-align: center;
-    margin-top: 35px;
-    font-size: 2em;
-}
-
-.produit_mois {
-    text-decoration: none;
-    background-color: purple;
-    margin-right: 10px;
-    padding: 15px;
-    padding-left: 60px;
-    padding-right: 60px;
-    border-radius: 50px;
-    color: white;
-    margin-left: 15px;
-    width: 160px;
-    margin-bottom: 15px;
-}
-
-.blockproduitmois{
-    height: 150px;
-    text-align: center;
-}
-
-.chiffretablette{
-    display: none;
-}
 
 /*Pied de page*/
 .footer {
