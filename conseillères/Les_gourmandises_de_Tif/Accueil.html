@@ -9,6 +9,11 @@
     <!--css principal-->
     <link rel="stylesheet" href="../../public/css/style.css" type="text/css">
     <link rel="stylesheet" href="../../public/css/responsive.css" type="text/css">
+
+    <!--lien fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -52,7 +57,8 @@
                     <div class="menuContent">
                         <ul>
                             <li class=""><a href="#" class="menucolor2">Accueil</a></li>
-                            <li class=""><a href="../Les_gourmandises_de_Tif/catalogues/sucre.Html" class="menucolor1">Sucrés</a></li>
+                            <li class=""><a href="../Les_gourmandises_de_Tif/catalogues/sucre.Html"
+                                    class="menucolor1">Sucrés</a></li>
                             <li class=""><a href="catalogue/confiserie.Html" class="menucolor1">Confiseries</a></li>
                             <li class=""><a href="catalogue/Bien_être.Html" class="menucolor1">Bien-être</a></li>
                             <li class=""><a href="catalogue/salés.Html" class="menucolor1">Salés</a></li>
@@ -111,12 +117,49 @@
     <!-- Section formulaire de contact -->
     <section id="contact">
 
+        <form>
+
+            <div class="segment">
+                <h1>Sign up</h1>
+            </div>
+
+            <label>
+                <input type="text" placeholder="Nom Prénom " required />
+            </label>
+            <label>
+                <input type="text" placeholder="Email Address" required />
+            </label>
+            <label>
+                <textarea name="message"
+                    placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
+                    required></textarea> 
+                </label>
+                    <label class="fontparagraphe question">Comment avez vous connu "Les gourmandises de Tif'" ? </label>
+
+                    <select name="choix">
+                        <option value="Par recherche google">Recherche google</option>
+                        <option value="Par Facebook">Facebook</option>
+                        <option value="Par un ami">Ami(e)</option>
+                        <option value="Autres">Autres</option>
+                    </select>
+
+
+            <button class="red" type="submit">Envoyer</button>
+
+            <div class="segment">
+                <button class="unit" type="button"><i class="icon ion-md-arrow-back"></i></button>
+                <button class="unit" type="button"><i class="icon ion-md-bookmark"></i></button>
+                <button class="unit" type="button"><i class="icon ion-md-settings"></i></button>
+            </div>
+
+        </form>
+        <!--
         <div>
             <h1 class="font title">Nous contacter</h1>
 
             <div class="contact">
 
-                <form method="post" action="php/contact.php" class="form">
+                </div><form method="post" action="php/contact.php" class="form">
 
                     <div class="formulaire">
 
@@ -159,7 +202,7 @@
         <div>
             <img src="../../public/img/enveloppe.png" alt="" class="enveloppe">
         </div>
-
+-->
 
 
     </section>
