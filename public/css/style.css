@@ -8,7 +8,7 @@ a {
   text-decoration: none;
 }
 
-#menuToggle {
+.mobilemenu {
   display: none;
 }
 
