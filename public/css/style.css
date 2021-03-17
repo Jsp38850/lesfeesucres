@@ -4,10 +4,13 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*Pied de page*/
 .footer {
   height: 85px;
-  background-color: white;
 }
 
 .footerright i {
@@ -28,7 +31,7 @@ body {
 
 /*Page index.html (Regroupe toute les autres pages*/
 #home_page {
-  background-image: url(../../public/img/background.jpg);
+  background-color: #ffe5e6;
   background-size: cover;
 }
 
@@ -48,10 +51,8 @@ body {
 .home_page .title {
   font-size: 5rem;
   text-align: center;
-  margin-bottom: 25px;
-  color: #f3ef02;
+  color: #cc9999;
   font-family: cursive;
-  text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #efa032, 15px 15px 0px #46b59b, 20px 20px 0px #017e7f, 25px 25px 0px #052939, 30px 30px 0px #c11a2b;
 }
 .home_page .soustitre {
   margin-top: 0px;
@@ -84,6 +85,7 @@ body {
 .logo {
   width: 220px;
   min-width: 100px;
+  margin-bottom: 45px;
 }
 
 /*--------------------------------*/
@@ -103,10 +105,6 @@ body {
   font-size: 1em;
 }
 
-a {
-  text-decoration: none;
-}
-
 /*Bouton aide*/
 .aide {
   position: absolute;
@@ -121,12 +119,12 @@ nav ul {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 20px 0 0 0;
   padding: 0;
 }
 
 nav a {
-  font-size: 1.5em;
+  font-size: 2em;
   text-decoration: none;
 }
 
@@ -166,17 +164,19 @@ nav li {
 /*Banniere du site*/
 .banniere {
   width: 100%;
-  height: 900px;
+  height: 550px;
   object-fit: cover;
-  margin-top: 20px;
+  object-position: 0px -252px;
+  box-shadow: 0 0px 20px 2px #a2a2a2;
+  animation: fadein 2s 0.5s 1 alternate backwards;
 }
 
 /*Section 2 nos catégorie*/
-#section2 {
+#presentation {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  height: 500px;
+  justify-content: space-evenly;
+  animation: fadein 2s 1s 1 alternate backwards;
 }
 
 .presentation {
@@ -190,10 +190,8 @@ nav li {
 }
 
 .title {
-  text-align: center;
-  font-size: 5em;
-  margin-top: 10px;
-  margin-bottom: 0;
+  font-size: 2em;
+  padding-top: 30px;
 }
 
 .general {
@@ -223,11 +221,12 @@ nav li {
 }
 
 /*Formulaire de contact*/
-#section3 {
-  background-color: #cccfd8;
+#contact {
+  background-color: #ffe5e5;
   width: 100%;
   height: 670px;
   margin-top: 45px;
+  animation: fadein 2s 1.5s 1 alternate backwards;
 }
 
 .mail, .message, .question, .prenom1, .nom1 {
@@ -245,7 +244,7 @@ input, textarea, select {
   border-style: double;
   padding: 8px;
   font-size: 15px;
-  box-shadow: 0px 0px 5px;
+  box-shadow: 4px 4px 7px 1px;
 }
 
 .button {
@@ -295,8 +294,62 @@ label {
 }
 
 .image_profil img {
-  width: 550px;
+  width: 614px;
+  margin-top: 112px;
+}
+
+.text_profil {
+  width: 30%;
   margin-top: 50px;
+}
+.text_profil h1 {
+  font-size: 2em;
+  text-align: center;
+}
+.text_profil p {
+  font-size: 1.3em;
+  text-align: center;
+}
+.text_profil a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: arial;
+  font-size: 1em;
+  color: #000000;
+  background-color: #e5b9b7;
+  border-radius: 24px;
+  border: 2px solid #FFFFFF;
+  box-shadow: 3px 3px 8px #444444;
+  margin-top: 33px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: block;
+}
+
+#contact {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  box-shadow: inset 1px 1px 13px 0px #afafaf;
+}
+
+.enveloppe {
+  width: 400px;
+  transform: rotate(8deg);
+  margin-top: 130px;
+}
+
+footer {
+  animation: fadein 2s 2s 1 alternate backwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--css principal-->
+    <link rel="stylesheet" href="../../public/css/style.css" type="text/css">
+</head>
+
+<body class="background">
+    <header>
+
+        <!-- Menu  -->
+        <nav>
+            <ul>
+                <li class=""><a href="#" class="menucolor2">Accueil</a></li>
+                <li class=""><a href="catalogue/sucre.Html" class="menucolor1">Sucrés</a></li>
+                <li class=""><a href="catalogue/confiserie.Html" class="menucolor1">Confiseries</a></li>
+                <li class=""><a href="catalogue/Bien_être.Html" class="menucolor1">Bien-être</a></li>
+                <!-- Logo -->
+                <img src="../../public/img/test/logo/logo.png" alt="Logo du site" class="logo" />
+
+                <li class=""><a href="catalogue/salés.Html" class="menucolor1">Salés</a></li>
+                <li class=""><a href="catalogue/Assaisonnements.Html" class="menucolor1">Assaisonnements</a></li>
+                <li class=""><a href="catalogue/Coffret.Html" class="menucolor1">Coffrets</a></li>
+                <!-- <li class=""><a href="catalogue/Vrac.Html" class="">Vrac</a></li>-->
+                <li class=""><a href="#section3" class="menucolor2">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Image page accueil  -->
+    <section id="banniere">
+        <img src="../../public/img/test/bannière.jpg" alt="bannière" class="banniere">
+    </section>
+    <!-- Section présentation conseillère -->
+    <section id="presentation">
+        <div class="image_profil">
+            <img src="../../public/img/test/logo/logo.png" alt="Logo du site"  />
+        </div>
+        <div class="text_profil">
+            <h1>Présentation</h1>
+
+            <p>🍭 Bienvenue sur le groupe les gourmandises de Tif' 🍭
+                Venez découvrir toutes les gammes de produits de Légendes Gourmandes.
+                Légendes Gourmandes c'est quoi ? C'est une entreprise qui a vue le jour en juillet 2000 à Chalon sur Saône.
+                Les produits sont conçus dans une petite entreprise de bourgogne qui favorise au maximum les producteur locaux.
+                La majorité des produits sont conçus de façon artisanale.
+                Légendes Gourmandes propose des produits varié, sucrées, salés, vegan, sans gluten.
+                Vous découvrirez :
+                🍪 des préparations pour cookies, moelleux, muffins, marbrés
+                🍰 des préparations pour cake sucrés, sablés, gâteaux magiques
+                🍮 des préparations pour crumbles, riz au lait, madeleines
+                🍜 des préparations pour risottos, soupes
+                🍚 des pâtes, riz
+                🥫 des mélanges pour sauces
+                🥧 des préparations pour cakes salés, mug cake salé
+                🥖 des terrines
+                🧉 des préparations pour chocolat chauds, milkshakes, cocktails, mocktails
+                🍬 des confiseries
+                🍯 des confitures
+                et pleins d'autres gourmandises🍭
+            </p>
+            <a href="">Découvrire notre catalogue</a>
+
+        </div>
+
+    </section>
+    <!-- Section formulaire de contact -->
+    <section id="contact">
+
+        <div>
+            <h1 class="font title">Nous contacter</h1>
+
+            <div class="contact">
+
+                <form method="post" action="php/contact.php" class="form">
+
+                    <div class="formulaire">
+
+                        <div class="prenom">
+                            <label class="fontparagraphe ">Prénom</label>
+                            <input class="prenom1" type="text" id="prenom" name="prénom" placeholder="Votre prénom.."
+                                required>
+                        </div>
+
+                        <div class="nom">
+                            <label class="fontparagraphe nom1">Nom</label>
+                            <input class="nom1" type="text" id="nom" name="nom" placeholder="Votre nom.." required>
+                        </div>
+
+                    </div>
+
+                    <label class="fontparagraphe mail">Mail</label>
+                    <input type="text" id="mail" name="mail" placeholder="Votre Adresse mail.." required>
+
+
+                    <label class="fontparagraphe message">Message</label>
+                    <textarea id="message" name="message"
+                        placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
+                        required></textarea>
+
+
+                    <label class="fontparagraphe question">Comment avez vous connu "Les gourmandises de Tif'" ? </label>
+
+                    <select name="choix">
+                        <option value="Par recherche google">Recherche google</option>
+                        <option value="Par Facebook">Facebook</option>
+                        <option value="Par un ami">Ami(e)</option>
+                        <option value="Autres">Autres</option>
+                    </select>
+
+                    <input type="submit" value="Envoyer" class="button">
+                </form>
+            </div>
+        </div>
+            <div>
+                <img src="../../public/img/enveloppe.png" alt="" class="enveloppe">
+            </div>
+
+
+
+    </section>
+    <!-- Pied de page  -->
+    <footer class="footer">
+        <div class="footerleft">
+            <p>Les gourmandises de Tif' © 2021 Tous droits réservés</p>
+            <p class="siret">Siret: 892 849 134 00010 </p>
+        </div>
+
+        <div class="footerright">
+            <a href="https://www.facebook.com/groups/256189049270560">
+                <i class="fab fa-facebook-square"></i>
+
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
