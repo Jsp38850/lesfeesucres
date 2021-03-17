@@ -81,6 +81,256 @@ a {
   src: url("../font/Adriana Italic.ttf");
 }
 /*--------------------------------*/
+body {
+  border: 0;
+  margin: 0;
+}
+
+/*CSS general*/
+.font_italic {
+  font-family: "Adriana_italic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.catalogue {
+  text-decoration: none;
+  background-color: brown;
+  margin-right: 10px;
+  padding: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 50px;
+  color: white;
+  margin-left: 15px;
+  width: 160px;
+  margin-bottom: 15px;
+}
+
+/*Titre de la page*/
+.titleprincipal {
+  font-size: 6em;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*Filtre */
+.filtre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filtre a {
+  text-decoration: none;
+  background-color: brown;
+  margin-right: 10px;
+  padding: 15px;
+  border-radius: 50px;
+  color: white;
+}
+
+.filtre a:hover, .catalogue:hover {
+  background-color: brown;
+  opacity: 0.5;
+}
+
+/*Filtre version mobile*/
+.filtermenu {
+  display: none;
+}
+
+/*Section fonc gris*/
+.blockgrey {
+  background-color: #cccfd8;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.blockgreyvrac {
+  background-color: #cccfd8;
+  text-align: center;
+  padding-top: 30px;
+  height: 50px;
+}
+
+.shadows2 img {
+  box-shadow: 0 0 1em white;
+}
+
+/*Les differentes listes*/
+.liste {
+  font-family: cursive;
+  font-size: 1.2em;
+}
+
+.liste2 {
+  display: flex;
+  flex-direction: row;
+  font-family: cursive;
+  font-size: 1.2em;
+}
+
+/* Les differentes colonne*/
+.colun1 h1 {
+  margin-top: 0;
+  margin-left: 3%;
+  font-family: "Adriana";
+  font-size: 4em;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+.colun1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*Pour 3 images*/
+.colun2 img {
+  width: 350px;
+  height: 95%;
+  object-fit: cover;
+  margin-left: 15px;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+/*Pour 2 images*/
+.colun2_1 img {
+  width: 450px;
+  height: 95%;
+  object-fit: cover;
+  margin-left: 15px;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+/*Pour 1 images*/
+.colun2_2 img {
+  width: 700px;
+  height: 95%;
+  object-fit: cover;
+  margin-left: 15px;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+/*Espace ligne texte*/
+.ligne2 {
+  margin-top: 15px;
+}
+
+/* Information sur les type d'emballage*/
+.info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+/*Section fond blanc */
+.blockwhite {
+  background-color: white;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.shadows1 img {
+  box-shadow: 0 0 1em #383838;
+}
+
+/*Pied de page*/
+.footer {
+  height: 70px;
+}
+
+.footerright i {
+  font-size: 2.5em;
+  margin-right: 50px;
+  color: blue;
+}
+
+.footerright {
+  float: right;
+  padding-top: 10px;
+}
+
+.footerleft {
+  float: left;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+
+.footerleft p {
+  margin-top: 0;
+}
+
+.footergrey {
+  background-color: #cccfd8;
+  height: 80px;
+}
+
+/*Bouton page aide*/
+.aide {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+}
+
+/*Bouton en bas de page fixed*/
+#bouton_page {
+  width: 100%;
+  position: fixed;
+  bottom: 30px;
+}
+
+#center {
+  text-align: center;
+}
+
+.page_right, .page_index, .page_left {
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 15px;
+  border-radius: 50px;
+  color: white;
+  background-color: brown;
+}
+
+.page_left i {
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+
+.page_right i {
+  margin-right: 10px;
+  font-size: 0.8em;
+}
+
+.none {
+  visibility: hidden;
+}
+
+/*Police Principal*/
+@font-face {
+  font-family: "Adriana";
+  src: url("../font/Adriana.ttf");
+}
+/*--------------------------------*/
+/*Police Gras*/
+@font-face {
+  font-family: "Adriana_italic";
+  src: url("../font/Adriana Italic.ttf");
+}
+/*--------------------------------*/
 /*Logo du site*/
 .logo {
   width: 220px;
@@ -147,20 +397,6 @@ nav li {
   color: red;
 }
 
-.menuleft, .menuright {
-  display: flex;
-  flex-direction: row;
-}
-
-/*Block menu mobile cacher*/
-.checkbox-container {
-  display: none;
-}
-
-.menumobile, aside, #myInput {
-  display: none;
-}
-
 /*Banniere du site*/
 .banniere {
   width: 100%;
@@ -171,7 +407,7 @@ nav li {
   animation: fadein 2s 0.5s 1 alternate backwards;
 }
 
-/*Section 2 nos catégorie*/
+/*Section présentation*/
 #presentation {
   display: flex;
   flex-direction: row;
@@ -179,49 +415,41 @@ nav li {
   animation: fadein 2s 1s 1 alternate backwards;
 }
 
-.presentation {
+.image_profil img {
+  width: 614px;
+  margin-top: 112px;
+}
+
+.text_profil {
   width: 30%;
   margin-top: 50px;
 }
-
-.detail h1 {
+.text_profil p {
+  font-size: 1.3em;
   text-align: center;
-  text-decoration: underline;
 }
-
-.title {
-  font-size: 2em;
-  padding-top: 30px;
-}
-
-.general {
-  width: 94%;
-  margin-left: 3%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.card {
-  background-color: white;
-  border-radius: 17px;
-  width: 20%;
-  margin-top: 2%;
-  margin-left: 55px;
-  padding: 5px;
-  box-shadow: 0 0 1em #d2d2d2;
-}
-
-.card img {
-  width: 100%;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  object-fit: cover;
-  height: 180px;
+.text_profil a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: arial;
+  font-size: 1em;
+  color: #000000;
+  background-color: #e5b9b7;
+  border-radius: 24px;
+  border: 2px solid #FFFFFF;
+  box-shadow: 3px 3px 8px #444444;
+  margin-top: 33px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: block;
 }
 
 /*Formulaire de contact*/
 #contact {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  box-shadow: inset 1px 1px 13px 0px #afafaf;
   background-color: #ffe5e5;
   width: 100%;
   height: 670px;
@@ -231,6 +459,11 @@ nav li {
 
 .mail, .message, .question, .prenom1, .nom1 {
   margin-top: 15px;
+}
+
+.title {
+  font-size: 2em;
+  padding-top: 30px;
 }
 
 .formulaire {
@@ -272,6 +505,13 @@ label {
   width: 500px;
 }
 
+.enveloppe {
+  width: 400px;
+  transform: rotate(8deg);
+  margin-top: 130px;
+}
+
+/**Icone reseau sociau**/
 .social {
   display: flex;
   justify-content: center;
@@ -283,66 +523,12 @@ label {
   color: blue;
 }
 
-/*Page a propos*/
-.imageconstruction {
-  text-align: center;
-}
-
-.construction {
-  width: 50%;
-  margin-top: 35px;
-}
-
-.image_profil img {
-  width: 614px;
-  margin-top: 112px;
-}
-
-.text_profil {
-  width: 30%;
-  margin-top: 50px;
-}
-.text_profil h1 {
-  font-size: 2em;
-  text-align: center;
-}
-.text_profil p {
-  font-size: 1.3em;
-  text-align: center;
-}
-.text_profil a {
-  text-decoration: none;
-  padding: 10px;
-  font-family: arial;
-  font-size: 1em;
-  color: #000000;
-  background-color: #e5b9b7;
-  border-radius: 24px;
-  border: 2px solid #FFFFFF;
-  box-shadow: 3px 3px 8px #444444;
-  margin-top: 33px;
-  margin-bottom: 30px;
-  text-align: center;
-  display: block;
-}
-
-#contact {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  box-shadow: inset 1px 1px 13px 0px #afafaf;
-}
-
-.enveloppe {
-  width: 400px;
-  transform: rotate(8deg);
-  margin-top: 130px;
-}
-
+/**Pied de page **/
 footer {
   animation: fadein 2s 2s 1 alternate backwards;
 }
 
+/**Animation apparition **/
 @keyframes fadein {
   from {
     opacity: 0;
