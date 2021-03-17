@@ -96,7 +96,7 @@
   .menu {
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 0;
     left: 0;
     background: #cc9999;
@@ -118,7 +118,7 @@
     font-size: 30px;
     text-align: center;
     padding-bottom: 20px;
-    margin-top: -170px;
+    margin-top: -280px;
   }
 
   .menu ul {
