@@ -8,6 +8,14 @@ a {
   text-decoration: none;
 }
 
+#menuToggle {
+  display: none;
+}
+
+.logomobile {
+  display: none;
+}
+
 /*Pied de page*/
 .footer {
   height: 85px;

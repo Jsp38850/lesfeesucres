@@ -8,16 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--css principal-->
     <link rel="stylesheet" href="../../public/css/style.css" type="text/css">
+    <link rel="stylesheet" href="../../public/css/responsive.css" type="text/css">
 </head>
 
-<body class="background">
+<body>
     <header>
 
         <!-- Menu  -->
-        <nav>
+        <nav class="ordinateur">
             <ul>
                 <li class=""><a href="#" class="menucolor2">Accueil</a></li>
-                <li class=""><a href="../Les_gourmandises_de_Tif/catalogues/sucre.Html" class="menucolor1">Sucrés</a></li>
+                <li class=""><a href="../Les_gourmandises_de_Tif/catalogues/sucre.Html" class="menucolor1">Sucrés</a>
+                </li>
                 <li class=""><a href="catalogue/confiserie.Html" class="menucolor1">Confiseries</a></li>
                 <li class=""><a href="catalogue/Bien_être.Html" class="menucolor1">Bien-être</a></li>
                 <!-- Logo -->
@@ -30,6 +32,40 @@
                 <li class=""><a href="#section3" class="menucolor2">Contact</a></li>
             </ul>
         </nav>
+
+        <!--menu mobile-->
+
+            <nav role="navigation">
+
+                <img src="../../public/img/test/logo/logo.png" alt="Logo du site" class="logomobile" />
+
+
+                <div id="menuToggle">
+
+                    <input type="checkbox" />
+
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+
+                    <ul id="menu">
+                        <li class=""><a href="#" class="menucolor2">Accueil</a></li>
+                        <li class=""><a href="../Les_gourmandises_de_Tif/catalogues/sucre.Html"
+                                class="menucolor1">Sucrés</a></li>
+                        <li class=""><a href="catalogue/confiserie.Html" class="menucolor1">Confiseries</a></li>
+                        <li class=""><a href="catalogue/Bien_être.Html" class="menucolor1">Bien-être</a></li>
+                        <li class=""><a href="catalogue/salés.Html" class="menucolor1">Salés</a></li>
+                        <li class=""><a href="catalogue/Assaisonnements.Html" class="menucolor1">Assaisonnements</a>
+                        </li>
+                        <li class=""><a href="catalogue/Coffret.Html" class="menucolor1">Coffrets</a></li>
+                        <!-- <li class=""><a href="catalogue/Vrac.Html" class="">Vrac</a></li>-->
+                        <li class=""><a href="#section3" class="menucolor2">Contact</a></li>
+                    </ul>
+
+                </div>
+            </nav>
     </header>
     <!-- Image page accueil  -->
     <section id="banniere">
@@ -40,14 +76,16 @@
     <!-- Section présentation conseillère -->
     <section id="presentation">
         <div class="image_profil">
-            <img src="../../public/img/test/logo/logo.png" alt="Logo du site"  />
+            <img src="../../public/img/test/logo/logo.png" alt="Logo du site" />
         </div>
         <div class="text_profil">
 
             <p>🍭 Bienvenue sur le groupe les gourmandises de Tif' 🍭
                 Venez découvrir toutes les gammes de produits de Légendes Gourmandes.
-                Légendes Gourmandes c'est quoi ? C'est une entreprise qui a vue le jour en juillet 2000 à Chalon sur Saône.
-                Les produits sont conçus dans une petite entreprise de bourgogne qui favorise au maximum les producteur locaux.
+                Légendes Gourmandes c'est quoi ? C'est une entreprise qui a vue le jour en juillet 2000 à Chalon sur
+                Saône.
+                Les produits sont conçus dans une petite entreprise de bourgogne qui favorise au maximum les producteur
+                locaux.
                 La majorité des produits sont conçus de façon artisanale.
                 Légendes Gourmandes propose des produits varié, sucrées, salés, vegan, sans gluten.</br>
                 Vous découvrirez : </br>
@@ -117,9 +155,9 @@
                 </form>
             </div>
         </div>
-            <div>
-                <img src="../../public/img/enveloppe.png" alt="" class="enveloppe">
-            </div>
+        <div>
+            <img src="../../public/img/enveloppe.png" alt="" class="enveloppe">
+        </div>
 
 
 
