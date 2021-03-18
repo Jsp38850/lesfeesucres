@@ -213,5 +213,13 @@
     width: 90%;
   }
 }
+@media all and (max-width: 900px) {
+  .footerleft {
+    margin-left: 5px;
+  }
+  .footerleft p {
+    margin-top: 8px;
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */

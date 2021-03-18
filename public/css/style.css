@@ -147,6 +147,7 @@ button.red {
 
 .footerleft {
   float: left;
+  padding-top: 10px;
   margin-left: 50px;
 }
 
@@ -380,12 +381,6 @@ body {
 .footerright {
   float: right;
   padding-top: 10px;
-}
-
-.footerleft {
-  float: left;
-  padding-top: 10px;
-  margin-left: 50px;
 }
 
 .footerleft p {
