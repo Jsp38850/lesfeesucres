@@ -9,10 +9,11 @@
     
 }
 .banniere{
-    object-position: initial;
+    height: 220px;
 }
 .text_profil{
     width: 94%;
+    margin-top: 10px;
 
     p{
       font-size: 1em;
@@ -27,6 +28,10 @@
 
 .footerright {
   display: none;
+}
+
+.question {
+  font-size: 0.9em;
 }
 }
 

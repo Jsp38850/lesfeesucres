@@ -23,18 +23,18 @@
         <nav class="ordinateur">
             <ul>
                 <li class=""><a href="#" class="menucolor2">Accueil</a></li>
-                <li class=""><a href="../Les_gourmandises_de_Tif/catalogues/sucre.Html" class="menucolor1">Sucrés</a>
+                <li class=""><a href="" class="menucolor1">Sucrés</a>
                 </li>
-                <li class=""><a href="catalogue/confiserie.Html" class="menucolor1">Confiseries</a></li>
-                <li class=""><a href="catalogue/Bien_être.Html" class="menucolor1">Bien-être</a></li>
+                <li class=""><a href="" class="menucolor1">Confiseries</a></li>
+                <li class=""><a href="" class="menucolor1">Bien-être</a></li>
                 <!-- Logo -->
                 <img src="../../public/img/test/logo/logo.png" alt="Logo du site" class="logo" />
 
-                <li class=""><a href="catalogue/salés.Html" class="menucolor1">Salés</a></li>
-                <li class=""><a href="catalogue/Assaisonnements.Html" class="menucolor1">Assaisonnements</a></li>
-                <li class=""><a href="catalogue/Coffret.Html" class="menucolor1">Coffrets</a></li>
+                <li class=""><a href="" class="menucolor1">Salés</a></li>
+                <li class=""><a href="" class="menucolor1">Assaisonnements</a></li>
+                <li class=""><a href="" class="menucolor1">Coffrets</a></li>
                 <!-- <li class=""><a href="catalogue/Vrac.Html" class="">Vrac</a></li>-->
-                <li class=""><a href="#section3" class="menucolor2">Contact</a></li>
+                <li class=""><a href="#contact" class="menucolor2">Contact</a></li>
             </ul>
         </nav>
 
@@ -57,17 +57,26 @@
                     <div class="menuContent">
                         <ul>
                             <li class=""><a href="#" class="menucolor2">Accueil</a></li>
-                            <li class=""><a href="../Les_gourmandises_de_Tif/catalogues/sucre.Html"
-                                    class="menucolor1">Sucrés</a></li>
-                            <li class=""><a href="catalogue/confiserie.Html" class="menucolor1">Confiseries</a></li>
-                            <li class=""><a href="catalogue/Bien_être.Html" class="menucolor1">Bien-être</a></li>
-                            <li class=""><a href="catalogue/salés.Html" class="menucolor1">Salés</a></li>
-                            <li class=""><a href="catalogue/Assaisonnements.Html" class="menucolor1">Assaisonnements</a>
+                            <li class=""><a href="" class="menucolor1">Sucrés</a></li>
+                            <li class=""><a href="" class="menucolor1">Confiseries</a></li>
+                            <li class=""><a href="" class="menucolor1">Bien-être</a></li>
+                            <li class=""><a href="" class="menucolor1">Salés</a></li>
+                            <li class=""><a href="" class="menucolor1">Assaisonnements</a>
                             </li>
                             <li class=""><a href="catalogue/Coffret.Html" class="menucolor1">Coffrets</a></li>
                             <!-- <li class=""><a href="catalogue/Vrac.Html" class="">Vrac</a></li>-->
-                            <li class=""><a href="#section3" class="menucolor2">Contact</a></li>
+                            <li class=""><a href="#contact" class="menucolor2">Contact</a></li>
                         </ul>
+
+                        <a href="https://www.facebook.com/groups/256189049270560" class="reseaumobile">
+                            <i class="fab fa-facebook-f"></i>
+            
+                        </a>
+            
+                        <a href="https://www.instagram.com/lesgourmandisesdetif/" class="reseaumobile">
+                            <i class="fab fa-instagram"></i>
+            
+                        </a>
                     </div>
                 </div>
             </div>
@@ -123,20 +132,20 @@
                 <h1>Nous Contacter</h1>
             </div>
 
-            <label>
+            <label class="formlabel">
                 <input type="text" placeholder="Nom Prénom " required />
             </label>
-            <label>
-                <input type="text" placeholder="Email Address" required />
+            <label class="formlabel">
+                <input type="text" placeholder="Email" required />
             </label>
-            <label>
+            <label class="formlabel">
                 <textarea name="message"
                     placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
                     required></textarea> 
                 </label>
-                    <label class="fontparagraphe question">Comment avez vous connu "Les gourmandises de Tif'" ? </label>
+                    <label class="fontparagraphe question formlabel"">Comment avez vous connu "Les gourmandises de Tif'" ? </label>
 
-                    <select name="choix">
+                    <select name="choix" >
                         <option value="Par recherche google">Recherche google</option>
                         <option value="Par Facebook">Facebook</option>
                         <option value="Par un ami">Ami(e)</option>
@@ -147,8 +156,8 @@
             <button class="red" type="submit">Envoyer</button>
 
             <div class="segment">
-                <button class="unit" type="button"><i class="fab fa-facebook-f"></i></button>
-                <button class="unit" type="button"><i class="fab fa-instagram"></i></button>
+                <a href="https://www.facebook.com/groups/256189049270560">  <button class="unit" type="button"><i class="fab fa-facebook-f"></i></button></a>
+                <a href="https://www.instagram.com/lesgourmandisesdetif/">  <button class="unit" type="button"> <i class="fab fa-instagram"></i> </button></a>
                 <!-- <button class="unit" type="button"><i class="icon ion-md-settings"></i></button>-->
             </div>
 
@@ -157,56 +166,9 @@
         <div>
             <img src="../../public/img/enveloppe.png" alt="" class="enveloppe">
         </div>
-        <!--
-        <div>
-            <h1 class="font title">Nous contacter</h1>
+       
+              <!--  </div><form method="post" action="php/contact.php" class="form">  -->  
 
-            <div class="contact">
-
-                </div><form method="post" action="php/contact.php" class="form">
-
-                    <div class="formulaire">
-
-                        <div class="prenom">
-                            <label class="fontparagraphe ">Prénom</label>
-                            <input class="prenom1" type="text" id="prenom" name="prénom" placeholder="Votre prénom.."
-                                required>
-                        </div>
-
-                        <div class="nom">
-                            <label class="fontparagraphe nom1">Nom</label>
-                            <input class="nom1" type="text" id="nom" name="nom" placeholder="Votre nom.." required>
-                        </div>
-
-                    </div>
-
-                    <label class="fontparagraphe mail">Mail</label>
-                    <input type="text" id="mail" name="mail" placeholder="Votre Adresse mail.." required>
-
-
-                    <label class="fontparagraphe message">Message</label>
-                    <textarea id="message" name="message"
-                        placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
-                        required></textarea>
-
-
-                    <label class="fontparagraphe question">Comment avez vous connu "Les gourmandises de Tif'" ? </label>
-
-                    <select name="choix">
-                        <option value="Par recherche google">Recherche google</option>
-                        <option value="Par Facebook">Facebook</option>
-                        <option value="Par un ami">Ami(e)</option>
-                        <option value="Autres">Autres</option>
-                    </select>
-
-                    <input type="submit" value="Envoyer" class="button">
-                </form>
-            </div>
-        </div>
-        <div>
-            <img src="../../public/img/enveloppe.png" alt="" class="enveloppe">
-        </div>
--->
 
 
     </section>
@@ -219,7 +181,12 @@
 
         <div class="footerright">
             <a href="https://www.facebook.com/groups/256189049270560">
-                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-facebook-f"></i>
+
+            </a>
+
+            <a href="https://www.instagram.com/lesgourmandisesdetif/">
+                <i class="fab fa-instagram"></i>
 
             </a>
         </div>
