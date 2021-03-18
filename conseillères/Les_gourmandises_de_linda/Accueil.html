@@ -8,23 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--css principal-->
     <link rel="stylesheet" href="../../public/css/style.css" type="text/css">
-    <link rel="stylesheet" href="../../public/css/responsive.css" type="text/css">
-
-    <!--lien fontawesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
 </head>
 
-<body>
+<body class="background">
     <header>
 
         <!-- Menu  -->
-        <nav class="ordinateur">
+        <nav>
             <ul>
                 <li class=""><a href="#" class="menucolor2">Accueil</a></li>
-                <li class=""><a href="../Les_gourmandises_de_Tif/catalogues/sucre.Html" class="menucolor1">Sucrés</a>
-                </li>
+                <li class=""><a href="../../catalogues/sucre.Html" class="menucolor1">Sucrés</a></li>
                 <li class=""><a href="catalogue/confiserie.Html" class="menucolor1">Confiseries</a></li>
                 <li class=""><a href="catalogue/Bien_être.Html" class="menucolor1">Bien-être</a></li>
                 <!-- Logo -->
@@ -37,62 +30,24 @@
                 <li class=""><a href="#section3" class="menucolor2">Contact</a></li>
             </ul>
         </nav>
-
-        <!--menu mobile-->
-
-        <div class="mobilemenu">
-
-            <img src="../../public/img/test/logo/logo.png" alt="Logo du site" class="logomobile" />
-
-
-            <div id="menuArea">
-                <input type="checkbox" id="menuToggle"></input>
-
-                <label for="menuToggle" class="menuOpen">
-                    <div class="open"></div>
-                </label>
-
-                <div class="menu menuEffects">
-                    <label for="menuToggle"></label>
-                    <div class="menuContent">
-                        <ul>
-                            <li class=""><a href="#" class="menucolor2">Accueil</a></li>
-                            <li class=""><a href="../Les_gourmandises_de_Tif/catalogues/sucre.Html"
-                                    class="menucolor1">Sucrés</a></li>
-                            <li class=""><a href="catalogue/confiserie.Html" class="menucolor1">Confiseries</a></li>
-                            <li class=""><a href="catalogue/Bien_être.Html" class="menucolor1">Bien-être</a></li>
-                            <li class=""><a href="catalogue/salés.Html" class="menucolor1">Salés</a></li>
-                            <li class=""><a href="catalogue/Assaisonnements.Html" class="menucolor1">Assaisonnements</a>
-                            </li>
-                            <li class=""><a href="catalogue/Coffret.Html" class="menucolor1">Coffrets</a></li>
-                            <!-- <li class=""><a href="catalogue/Vrac.Html" class="">Vrac</a></li>-->
-                            <li class=""><a href="#section3" class="menucolor2">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </header>
     <!-- Image page accueil  -->
     <section id="banniere">
-        <img src="../../public/img/banniere/Tiffany_Banniere.png" alt="bannière" class="banniere">
+        <img src="../../public/img/test/bannière.jpg" alt="bannière" class="banniere">
     </section>
 
 
     <!-- Section présentation conseillère -->
     <section id="presentation">
         <div class="image_profil">
-            <img src="../../public/img/test/logo/logo.png" alt="Logo du site" />
+            <img src="../../public/img/test/logo/logo.png" alt="Logo du site"  />
         </div>
         <div class="text_profil">
 
             <p>🍭 Bienvenue sur le groupe les gourmandises de Tif' 🍭
                 Venez découvrir toutes les gammes de produits de Légendes Gourmandes.
-                Légendes Gourmandes c'est quoi ? C'est une entreprise qui a vue le jour en juillet 2000 à Chalon sur
-                Saône.
-                Les produits sont conçus dans une petite entreprise de bourgogne qui favorise au maximum les producteur
-                locaux.
+                Légendes Gourmandes c'est quoi ? C'est une entreprise qui a vue le jour en juillet 2000 à Chalon sur Saône.
+                Les produits sont conçus dans une petite entreprise de bourgogne qui favorise au maximum les producteur locaux.
                 La majorité des produits sont conçus de façon artisanale.
                 Légendes Gourmandes propose des produits varié, sucrées, salés, vegan, sans gluten.</br>
                 Vous découvrirez : </br>
@@ -109,61 +64,20 @@
                 🍯 des confitures</br>
                 et pleins d'autres gourmandises🍭
             </p>
-            <a href="">Découvrir notre catalogue</a>
+            <a href="">Découvrire notre catalogue</a>
 
         </div>
 
     </section>
     <!-- Section formulaire de contact -->
-    <section id="contact"  >
+    <section id="contact">
 
-        <form>
-
-            <div class="segment">
-                <h1>Nous Contacter</h1>
-            </div>
-
-            <label>
-                <input type="text" placeholder="Nom Prénom " required />
-            </label>
-            <label>
-                <input type="text" placeholder="Email Address" required />
-            </label>
-            <label>
-                <textarea name="message"
-                    placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
-                    required></textarea> 
-                </label>
-                    <label class="fontparagraphe question">Comment avez vous connu "Les gourmandises de Tif'" ? </label>
-
-                    <select name="choix">
-                        <option value="Par recherche google">Recherche google</option>
-                        <option value="Par Facebook">Facebook</option>
-                        <option value="Par un ami">Ami(e)</option>
-                        <option value="Autres">Autres</option>
-                    </select>
-
-
-            <button class="red" type="submit">Envoyer</button>
-
-            <div class="segment">
-                <button class="unit" type="button"><i class="fab fa-facebook-f"></i></button>
-                <button class="unit" type="button"><i class="fab fa-instagram"></i></button>
-                <!-- <button class="unit" type="button"><i class="icon ion-md-settings"></i></button>-->
-            </div>
-
-        </form>
-
-        <div>
-            <img src="../../public/img/enveloppe.png" alt="" class="enveloppe">
-        </div>
-        <!--
         <div>
             <h1 class="font title">Nous contacter</h1>
 
             <div class="contact">
 
-                </div><form method="post" action="php/contact.php" class="form">
+                <form method="post" action="php/contact.php" class="form">
 
                     <div class="formulaire">
 
@@ -203,10 +117,10 @@
                 </form>
             </div>
         </div>
-        <div>
-            <img src="../../public/img/enveloppe.png" alt="" class="enveloppe">
-        </div>
--->
+            <div>
+                <img src="../../public/img/enveloppe.png" alt="" class="enveloppe">
+            </div>
+
 
 
     </section>
