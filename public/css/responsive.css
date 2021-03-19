@@ -1,5 +1,21 @@
 @charset "UTF-8";
 @media all and (max-width: 900px) {
+  #Section_principal {
+    margin: 0;
+  }
+  #Section_principal img {
+    display: none;
+  }
+  #Section_principal .liste_conseillère {
+    flex-direction: column;
+  }
+  #Section_principal .center h1 {
+    font-size: 2em;
+  }
+  #Section_principal .soustitre_index {
+    font-size: 1em;
+  }
+
   .image_profil {
     display: none;
   }

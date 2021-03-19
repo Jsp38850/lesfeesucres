@@ -1,8 +1,23 @@
 @media all and (max-width: 900px) {
 
-    
+  #Section_principal{
+    margin: 0;
+    img{
+      display: none;
+      
+    }
+    .liste_conseillère{
+      flex-direction: column;
+    }
 
+    .center h1{
+      font-size: 2em;
+    }
 
+    .soustitre_index{
+      font-size: 1em;
+    }
+  }
 
 .image_profil{
     display: none;
@@ -33,5 +48,8 @@
 .question {
   font-size: 0.9em;
 }
+
+
+
 }
 

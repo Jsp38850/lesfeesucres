@@ -125,32 +125,35 @@
     </section>
     <!-- Section formulaire de contact -->
     <section id="contact"  >
-
-        <form action="php/contact.php" method="post"  name="formulaire" class="form">
-
+   
+          <form method="post" action="php/contact.php">
             <div class="segment">
                 <h1>Nous Contacter</h1>
             </div>
 
-            <label class="formlabel">
+            <label for="nom" class="formlabel">
                 <input type="text" name="nom" placeholder="Nom Prénom " required />
             </label>
-            <label class="formlabel">
-                <input type="text"  name="mail" placeholder="Email" required />
+            <label for="email" class="formlabel">
+                <input type="text"  name="email" placeholder="Email" required />
+            </label>
+            <label for="objet" class="formlabel">
+                <input type="text" name="objet" placeholder="Object message"/>
             </label>
             <label class="formlabel">
                 <textarea name="message" 
                     placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
                     required></textarea> 
                 </label>
-                    <label class="fontparagraphe question formlabel">Comment avez vous connu "Les gourmandises de Tif'" ? </label>
+                
+                <label class="fontparagraphe question formlabel">Comment avez vous connu "Les gourmandises de Linda" ? </label>
 
-                    <select name="choix" >
-                        <option value="Par recherche google">Recherche google</option>
-                        <option value="Par Facebook">Facebook</option>
-                        <option value="Par un ami">Ami(e)</option>
-                        <option value="Autres">Autres</option>
-                    </select>
+                <select name="choix" >
+                    <option value="Par recherche google">Recherche google</option>
+                    <option value="Par Facebook">Facebook</option>
+                    <option value="Par un ami">Ami(e)</option>
+                    <option value="Autres">Autres</option>
+                </select>
 
        
             <input type="submit" name="envoi" value="Envoyer le formulaire !"  class="red" />
