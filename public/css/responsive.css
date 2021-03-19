@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media all and (max-width: 900px) {
   .image_profil {
     display: none;
@@ -219,6 +220,460 @@
   }
   .footerleft p {
     margin-top: 8px;
+  }
+}
+@media all and (max-width: 900px) {
+  /*CSS cache block*/
+  .filtre {
+    display: none;
+  }
+
+  .responsive li {
+    display: none;
+  }
+
+  .chiffretablette {
+    display: none;
+  }
+
+  .img2 {
+    display: none;
+  }
+
+  /*Banniere du site */
+  .banniere {
+    height: 280px;
+  }
+
+  /*Css général*/
+  .title {
+    font-size: 3em;
+  }
+
+  .card {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  /*Section produit*/
+  .img1 {
+    height: 150px;
+  }
+
+  .colun2 {
+    order: 1;
+  }
+
+  .liste, .liste2 {
+    font-size: 0.8em;
+  }
+
+  .liste2 {
+    flex-direction: column;
+  }
+
+  .colun1 {
+    order: 2;
+  }
+
+  .colun1 h1 {
+    width: 90%;
+    font-size: 3em;
+  }
+
+  .blockgrey, .blockwhite {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .colun2 img, .colun2_2 img, .colun2_1 img {
+    height: 200px;
+    width: 94%;
+  }
+
+  /*Formulaire de contact*/
+  .nom {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .nom input {
+    margin-left: 50px;
+  }
+
+  .prenom input {
+    margin-left: 30px;
+  }
+
+  .formulaire {
+    display: block;
+  }
+
+  .contact {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .avis, .avis2 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .avis img, .avis2 img {
+    width: 55%;
+    margin-left: 0;
+  }
+
+  .avis {
+    margin-top: 0;
+  }
+
+  .avis2 {
+    margin-top: 2%;
+  }
+
+  .mail, .message, .question {
+    margin-top: 15px;
+  }
+
+  /*Pied de page*/
+  .footer {
+    margin-top: 15px;
+    height: 120px;
+  }
+
+  .footergrey {
+    height: 120px;
+  }
+
+  .siret {
+    margin-bottom: 0px;
+  }
+
+  .footerleft {
+    font-size: 0.6em;
+    padding-top: 15px;
+    margin-left: 35px;
+  }
+
+  /*Menu Hamburger version mobile*/
+  .checkbox-container {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 50px;
+    margin-top: 50px;
+    position: relative;
+  }
+
+  .checkbox-trigger {
+    opacity: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  .hamburger-menu, .hamburger-menu::before, .hamburger-menu::after {
+    display: block;
+    position: absolute;
+    background: black;
+    width: 40px;
+    height: 4px;
+    margin: 1.3em 3em;
+    transition: 0.3s;
+  }
+
+  .hamburger-menu::before, .hamburger-menu::after {
+    content: "";
+    position: absolute;
+    margin: -0.7em 0 0;
+    transition: width 0.7s ease 0.3s, transform 0.7s ease 0.3s;
+  }
+
+  .hamburger-menu::after {
+    margin-top: 0.7em;
+  }
+
+  .hamburger-menu {
+    position: relative;
+    display: block;
+    margin: 0;
+    left: 20px;
+    margin-top: 1.45em;
+    margin-right: 0.35em;
+    margin-left: 0.35em;
+    margin-bottom: 1.45em;
+    transition: width 0.3s ease;
+  }
+
+  .checkbox-trigger:checked {
+    left: 202px;
+  }
+
+  .checkbox-trigger:checked + .menu-content .hamburger-menu {
+    width: 2em;
+    left: 0;
+    transition: width 0.7s ease 0.7s;
+  }
+
+  .checkbox-trigger:checked + .menu-content .hamburger-menu::before {
+    width: 1.2em;
+    transform: rotate(-35deg);
+    margin-top: -0.4em;
+  }
+
+  .checkbox-trigger:checked + .menu-content .hamburger-menu::after {
+    width: 1.2em;
+    transform: rotate(35deg);
+    margin-top: 0.4em;
+  }
+
+  .checkbox-trigger:checked + .menu-content ul {
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    transition: width 0.7s ease 0.3s, height 0.3s ease;
+  }
+
+  .checkbox-trigger:checked + .menu-content {
+    background: #b38281;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .menu-content {
+    display: flex;
+    color: white;
+    float: left;
+  }
+
+  .titleprincipal {
+    font-size: 4em;
+  }
+
+  .menu-content ul {
+    display: block;
+    padding-left: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.3s ease 0.7s, width 0.7s ease;
+  }
+
+  .menu-content ul li {
+    list-style: none;
+    padding-top: 15px;
+    cursor: pointer;
+    font-size: 3em;
+    margin-left: 15px;
+    transition: color 0.5s, 0.5s;
+  }
+
+  #toggle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+    height: 40px;
+  }
+
+  #toggle:checked ~ ul {
+    height: 0%;
+  }
+
+  nav h2 {
+    border-radius: 2px;
+    position: relative;
+    background: brown;
+    height: 40px;
+    text-transform: uppercase;
+    color: ivory;
+    font-weight: 200;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+  }
+
+  nav ul {
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+    margin-bottom: 22px;
+    text-align: center;
+    transition: all 0.4s ease-out;
+  }
+
+  nav ul li {
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin-left: 35px;
+    line-height: 2.5;
+    width: 80%;
+    margin: 0;
+    margin-bottom: 5px;
+    background: brown;
+  }
+
+  nav ul li:hover {
+    background: brown;
+    opacity: 0.5;
+  }
+
+  nav ul a {
+    display: block;
+    color: ivory;
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  #toggle {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  /*Lien facebook menu */
+  .facebookmenu {
+    display: block;
+    margin-top: 37px;
+    margin-left: 15px;
+  }
+
+  .facebookmenu a {
+    opacity: 0.5;
+    color: #bfbfbf;
+  }
+
+  .facebookmenu a:hover {
+    opacity: 1;
+    color: #2a05ff;
+  }
+
+  .filtermenu {
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: 40px;
+    display: block;
+  }
+
+  /*Bouton page aide*/
+  .aide {
+    top: 10px;
+    right: 10px;
+    width: 30px;
+  }
+}
+/*Responsive entre 901px & 1499px*/
+@media all and (min-width: 901px) and (max-width: 1499px) {
+  /*CSS cache block*/
+  .img2 {
+    display: none;
+  }
+
+  .displaynone {
+    display: none;
+  }
+
+  .checkbox-container {
+    display: none;
+  }
+
+  /*css general*/
+  .font_italic {
+    font-size: 1.6em;
+  }
+
+  /*Logo du site */
+  .logo {
+    order: 1;
+  }
+
+  .divlogo {
+    width: 100%;
+    text-align: center;
+  }
+
+  /*Menu du site */
+  .menu1 {
+    order: 2;
+  }
+
+  .menu2 {
+    order: 3;
+  }
+
+  nav li {
+    margin-left: 0;
+  }
+
+  /*Banniere du site*/
+  .banniere {
+    height: 420px;
+  }
+
+  /*Section produit*/
+  .card {
+    width: 40%;
+    margin-left: 60px;
+  }
+
+  .card img {
+    height: 285px;
+  }
+
+  .general {
+    margin-left: 0;
+  }
+
+  /*Section meilleure vente du mois*/
+  .avis2 {
+    display: none;
+  }
+
+  .chiffretablette {
+    display: block;
+    padding-left: 50px;
+  }
+
+  .avis {
+    width: 30%;
+  }
+
+  .avis, .avis2 {
+    text-align: center;
+  }
+
+  .avis img {
+    margin-left: 0;
+  }
+
+  /*Pied de page*/
+  .footer {
+    margin-top: 15px;
   }
 }
 

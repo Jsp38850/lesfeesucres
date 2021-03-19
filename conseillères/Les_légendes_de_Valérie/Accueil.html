@@ -21,7 +21,7 @@
                 <li class=""><a href="catalogue/confiserie.Html" class="menucolor1">Confiseries</a></li>
                 <li class=""><a href="catalogue/Bien_être.Html" class="menucolor1">Bien-être</a></li>
                 <!-- Logo -->
-                <img src="../../public/img/test/logo/logo.png" alt="Logo du site" class="logo" />
+                <img src="../../public/img/logo/valerie_logo.jpg" alt="Logo du site" class="logo" />
 
                 <li class=""><a href="catalogue/salés.Html" class="menucolor1">Salés</a></li>
                 <li class=""><a href="catalogue/Assaisonnements.Html" class="menucolor1">Assaisonnements</a></li>
@@ -33,7 +33,7 @@
     </header>
     <!-- Image page accueil  -->
     <section id="banniere">
-        <img src="../../public/img/test/bannière.jpg" alt="bannière" class="banniere">
+        <img src="../../public/img/logo/valerie_logo.jpg" alt="bannière" class="banniere">
     </section>
 
 
@@ -69,61 +69,55 @@
         </div>
 
     </section>
-    <!-- Section formulaire de contact -->
-    <section id="contact">
+   <!-- Section formulaire de contact -->
+   <section id="contact"  >
 
-        <div>
-            <h1 class="font title">Nous contacter</h1>
+    <form>
 
-            <div class="contact">
-
-                <form method="post" action="php/contact.php" class="form">
-
-                    <div class="formulaire">
-
-                        <div class="prenom">
-                            <label class="fontparagraphe ">Prénom</label>
-                            <input class="prenom1" type="text" id="prenom" name="prénom" placeholder="Votre prénom.."
-                                required>
-                        </div>
-
-                        <div class="nom">
-                            <label class="fontparagraphe nom1">Nom</label>
-                            <input class="nom1" type="text" id="nom" name="nom" placeholder="Votre nom.." required>
-                        </div>
-
-                    </div>
-
-                    <label class="fontparagraphe mail">Mail</label>
-                    <input type="text" id="mail" name="mail" placeholder="Votre Adresse mail.." required>
-
-
-                    <label class="fontparagraphe message">Message</label>
-                    <textarea id="message" name="message"
-                        placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
-                        required></textarea>
-
-
-                    <label class="fontparagraphe question">Comment avez vous connu "Les gourmandises de Tif'" ? </label>
-
-                    <select name="choix">
-                        <option value="Par recherche google">Recherche google</option>
-                        <option value="Par Facebook">Facebook</option>
-                        <option value="Par un ami">Ami(e)</option>
-                        <option value="Autres">Autres</option>
-                    </select>
-
-                    <input type="submit" value="Envoyer" class="button">
-                </form>
-            </div>
+        <div class="segment">
+            <h1>Nous Contacter</h1>
         </div>
-            <div>
-                <img src="../../public/img/enveloppe.png" alt="" class="enveloppe">
-            </div>
+
+        <label class="formlabel">
+            <input type="text" placeholder="Nom Prénom " required />
+        </label>
+        <label class="formlabel">
+            <input type="text" placeholder="Email" required />
+        </label>
+        <label class="formlabel">
+            <textarea name="message"
+                placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
+                required></textarea> 
+            </label>
+                <label class="fontparagraphe question formlabel"">Comment avez vous connu "Les gourmandises de Linda" ? </label>
+
+                <select name="choix" >
+                    <option value="Par recherche google">Recherche google</option>
+                    <option value="Par Facebook">Facebook</option>
+                    <option value="Par un ami">Ami(e)</option>
+                    <option value="Autres">Autres</option>
+                </select>
+
+
+        <button class="red" type="submit">Envoyer</button>
+
+        <div class="segment">
+            <a href="https://www.facebook.com/groups/665015731102796">  <button class="unit" type="button"><i class="fab fa-facebook-f"></i></button></a>
+           <!-- <a href="https://www.instagram.com/lesgourmandisesdetif/">  <button class="unit" type="button"> <i class="fab fa-instagram"></i> </button></a>-->
+            <!-- <button class="unit" type="button"><i class="icon ion-md-settings"></i></button>-->
+        </div>
+
+    </form>
+
+    <div>
+        <img src="../../public/img/fee.svg" alt="" class="enveloppe">
+    </div>
+   
+          <!--  </div><form method="post" action="php/contact.php" class="form">  -->  
 
 
 
-    </section>
+</section>
     <!-- Pied de page  -->
     <footer class="footer">
         <div class="footerleft">
