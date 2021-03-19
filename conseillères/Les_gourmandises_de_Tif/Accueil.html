@@ -133,13 +133,13 @@
             </div>
 
             <label class="formlabel">
-                <input type="text" placeholder="Nom Prénom " required />
+                <input type="text" id="nom" name="nom" placeholder="Nom Prénom " required />
             </label>
             <label class="formlabel">
-                <input type="mail" placeholder="Email" required />
+                <input type="mail" id="email" name="email" placeholder="Email" required />
             </label>
             <label class="formlabel">
-                <textarea name="message"
+                <textarea name="message" id="message" 
                     placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
                     required></textarea> 
                 </label>
@@ -151,9 +151,10 @@
                         <option value="Par un ami">Ami(e)</option>
                         <option value="Autres">Autres</option>
                     </select>
+                    <label for="antispam_h">'.$nospam['question'].'</label><input type="text" name="antispam_h" id="antispam_h" /><input type="hidden" name="antispam_r" value="'.$nospam['num'].'" />
 
-
-            <button class="red" type="submit">Envoyer</button>
+       
+            <input type="submit" name="envoi" value="Envoyer le formulaire !"  class="red" />
 
             <div class="segment">
                 <a href="https://www.facebook.com/groups/256189049270560">  <button class="unit" type="button"><i class="fab fa-facebook-f"></i></button></a>
@@ -162,6 +163,7 @@
             </div>
 
         </form>
+
 
         <div>
             <img src="../../public/img/fee.svg" alt="" class="enveloppe">
