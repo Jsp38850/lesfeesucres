@@ -126,8 +126,8 @@
     <!-- Section formulaire de contact -->
     <section id="contact"  >
 
-    
-    <form method="post" action="php/contact.php" class="form">
+        <form action="php/contact.php" method="post"  name="formulaire" class="form">
+
             <div class="segment">
                 <h1>Nous Contacter</h1>
             </div>
@@ -143,7 +143,7 @@
                     placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
                     required></textarea> 
                 </label>
-                    <label class="fontparagraphe question formlabel"">Comment avez vous connu "Les gourmandises de Tif'" ? </label>
+                    <label class="fontparagraphe question formlabel">Comment avez vous connu "Les gourmandises de Tif'" ? </label>
 
                     <select name="choix" >
                         <option value="Par recherche google">Recherche google</option>
@@ -151,7 +151,6 @@
                         <option value="Par un ami">Ami(e)</option>
                         <option value="Autres">Autres</option>
                     </select>
-                    <label for="antispam_h">'.$nospam['question'].'</label><input type="text" name="antispam_h" id="antispam_h" /><input type="hidden" name="antispam_r" value="'.$nospam['num'].'" />
 
        
             <input type="submit" name="envoi" value="Envoyer le formulaire !"  class="red" />
