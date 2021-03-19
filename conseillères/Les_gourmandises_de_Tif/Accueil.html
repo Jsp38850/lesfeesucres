@@ -126,8 +126,8 @@
     <!-- Section formulaire de contact -->
     <section id="contact"  >
 
-        <form>
-
+    
+    <form method="post" action="php/contact.php" class="form">
             <div class="segment">
                 <h1>Nous Contacter</h1>
             </div>
@@ -136,7 +136,7 @@
                 <input type="text" placeholder="Nom Prénom " required />
             </label>
             <label class="formlabel">
-                <input type="text" placeholder="Email" required />
+                <input type="mail" placeholder="Email" required />
             </label>
             <label class="formlabel">
                 <textarea name="message"
