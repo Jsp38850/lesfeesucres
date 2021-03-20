@@ -8,6 +8,9 @@
     animation: fadein 2s 0.5s 1 alternate backwards ;
 }
 
+.Linda_banniere{
+    object-position: 0 -1080px;
+}
 /*Section présentation*/
 
 #presentation{
@@ -16,4 +19,25 @@
     justify-content: space-evenly;
     animation: fadein 2s 1s 1 alternate backwards ;
     
+}
+
+.menucolor2 {
+    color: brown;
+}
+
+.menucolor1 {
+    color: purple;
+}
+
+.menucolor1:hover, .menucolor2:hover {
+    color: rgb(224, 98, 255);
+}
+
+.rotate {
+    transform: scaleX(-1);
+}
+
+h2{
+    text-align: center;
+    font-size: 1.8em;
 }

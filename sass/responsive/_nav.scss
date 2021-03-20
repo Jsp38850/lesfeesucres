@@ -7,8 +7,9 @@
 .logomobile{
     display: block;
     position: absolute;
-    left: 30%;
-    width: 168px;
+    left: 38%;
+    top: 2%;
+    width: 15%;
     min-width: 100px;
 
   
@@ -84,7 +85,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background:#cc9999;
+    background:#fce1d6;
   }
   
   .menu label {
@@ -114,10 +115,10 @@
   
   .menu ul li a {
     display: block;
-    color: white;
+    color: #aa6fbf;
     text-decoration: none;
     transition: color 0.2s;
-    font-family: Trebuchet MS;
+    font-family: "Kaushan";
     text-transform: uppercase;
     padding: 10px 0;
   }

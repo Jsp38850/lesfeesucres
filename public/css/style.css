@@ -12,7 +12,7 @@ a {
   font-family: "Kaushan";
   src: url("../../public/font/Kaushan.woff") format("woff");
 }
-h1 {
+h1, h2 {
   font-family: "Kaushan";
 }
 
@@ -36,9 +36,6 @@ form {
 .segment {
   padding: 32px 0;
   text-align: center;
-}
-.segment h1 {
-  font-size: 1.8em;
 }
 
 .formlabel {
@@ -630,12 +627,37 @@ footer {
   animation: fadein 2s 0.5s 1 alternate backwards;
 }
 
+.Linda_banniere {
+  object-position: 0 -1080px;
+}
+
 /*Section présentation*/
 #presentation {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   animation: fadein 2s 1s 1 alternate backwards;
+}
+
+.menucolor2 {
+  color: brown;
+}
+
+.menucolor1 {
+  color: purple;
+}
+
+.menucolor1:hover, .menucolor2:hover {
+  color: #e062ff;
+}
+
+.rotate {
+  transform: scaleX(-1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8em;
 }
 
 /*# sourceMappingURL=style.css.map */
