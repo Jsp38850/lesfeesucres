@@ -67,11 +67,10 @@ else
 	$email   = (isset($_POST['email']))   ? Rec($_POST['email'])   : '';
 	$objet   = (isset($_POST['objet']))   ? Rec($_POST['objet'])   : '';
 	$message = (isset($_POST['message'])) ? Rec($_POST['message']) : '';
-  $choix = (isset($_POST['choix'])) ? Rec($_POST['choix']) : '';
 	// On va vérifier les variables et l'email ...
 	$email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
  
-	if (($nom != '') && ($email != '') && ($objet != '') && ($message != '') && ($choix != ''))
+	if (($nom != '') && ($email != '') && ($objet != '') && ($message != ''))
 	{
 		// les 4 variables sont remplies, on génère puis envoie le mail
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
