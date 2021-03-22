@@ -144,34 +144,39 @@
         <div>
             <img src="../../public/img/fee.svg" alt="" class="enveloppe rotate">
         </div>
-        <form>
+        <form method="post" action="php/contact.php">
 
             <div class="segment">
                 <h2>Nous Contacter</h2>
             </div>
 
-            <label class="formlabel">
-                <input type="text" placeholder="Nom Prénom " required />
+            <label class="formlabel" for="nom">
+                <input type="text"  name="nom" placeholder="Nom Prénom " required />
             </label>
-            <label class="formlabel">
-                <input type="text" placeholder="Email" required />
-            </label>
-            <label class="formlabel">
-                <textarea name="message" placeholder="Votre message .. (Merci de préciser: Demande de catalogue)"
-                    style="height:150px" required></textarea>
-            </label>
-            <label class="fontparagraphe question formlabel">Comment avez vous connu "Les gourmandises de Linda" ?
+            <label for="email" class="formlabel">
+                <input type="text" name="email" placeholder="Email" required />
             </label>
 
-            <select name="choix">
-                <option value="Par recherche google">Recherche google</option>
-                <option value="Par Facebook">Facebook</option>
-                <option value="Par un ami">Ami(e)</option>
-                <option value="Autres">Autres</option>
-            </select>
+            <label for="objet" class="formlabel">
+                <input type="text" name="objet" placeholder="Object message"/>
+            </label>
+
+            <label class="formlabel">
+                <textarea name="message" 
+                    placeholder="Votre message .. (Merci de préciser: Demande de catalogue)" style="height:150px"
+                    required></textarea> 
+                </label>
+                <label class="fontparagraphe question formlabel">Comment avez vous connu "Les gourmandises de Linda" ? </label>
+
+                <select name="choix" >
+                    <option value="Par recherche google">Recherche google</option>
+                    <option value="Par Facebook">Facebook</option>
+                    <option value="Par un ami">Ami(e)</option>
+                    <option value="Autres">Autres</option>
+                </select>
 
 
-            <!-- <button class="red" type="submit">Envoyer</button>-->
+            <button class="red" name="envoi" type="submit">Envoyer</button>
 
             <div class="segment">
                 <a href="https://www.facebook.com/groups/665015731102796" target="_blank"> <button class="unit"
@@ -187,7 +192,6 @@
             <img src="../../public/img/fee.svg" alt="" class="enveloppe">
         </div>
 
-        <!--  </div><form method="post" action="php/contact.php" class="form">  -->
 
 
 
