@@ -11,7 +11,7 @@ $email_expediteur = 'contact@les-fees-sucrees.fr';
 $nom_expediteur = 'Contact Les gourmandises de tif.fr';
  
 // destinataire est votre adresse mail (cela peut être la même que cl'expéditeur ci-dessus). Pour envoyer à plusieurs destinataires à la fois, séparez-les par un point-virgule
-$destinataire = 'lindaaru76@yahoo.com';
+$destinataire = 'balassem.mb@gmail.com';
  
 // copie ? (envoie une copie au visiteur)
 $copie = 'oui'; // 'oui' ou 'non'
@@ -119,7 +119,7 @@ else
  
 		if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1)))
 		{
-			echo '<p>'.$message_envoye.'<a href="../Accueil.html">Retour a la page Accueil</a></p>'."\n";
+			echo '<p>'.$message_envoye.'</p>'."\n";
 			
 		}
 		else
@@ -136,3 +136,5 @@ else
 	};
 }; // fin du if (!isset($_POST['envoi']))
 ?>
+
+<meta http-equiv="refresh" content="3; url=../Accueil.html" />

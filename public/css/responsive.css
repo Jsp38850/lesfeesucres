@@ -43,9 +43,14 @@
   .question {
     font-size: 0.9em;
   }
+}
+@media all and (min-width: 901px) and (max-width: 1499px) {
+  nav a {
+    font-size: 1.3em;
+  }
 
-  .Linda_banniere {
-    object-position: 0 -50px;
+  .enveloppe {
+    width: 280px;
   }
 }
 @media all and (max-width: 900px) {
@@ -255,7 +260,6 @@
   .footerleft {
     font-size: 0.8em;
     padding-top: 0;
-    margin-left: 35px;
   }
 }
 @media all and (max-width: 900px) {
@@ -624,10 +628,6 @@
   }
 
   /*Logo du site */
-  .logo {
-    order: 1;
-  }
-
   .divlogo {
     width: 100%;
     text-align: center;

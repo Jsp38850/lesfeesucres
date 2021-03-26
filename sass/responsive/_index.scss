@@ -48,10 +48,15 @@
 .question {
   font-size: 0.9em;
 }
-
-
-.Linda_banniere{
-  object-position: 0 -50px
-}
 }
 
+@media all and (min-width:901px) and (max-width: 1499px) {
+
+nav a{
+  font-size: 1.3em;
+}
+
+.enveloppe {
+  width: 280px;
+}
+}

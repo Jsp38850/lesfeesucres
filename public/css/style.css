@@ -187,6 +187,15 @@ button.red {
   font-family: cursive;
 }
 
+.top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.top img {
+  width: 50px;
+}
+
 /*Police Principal*/
 @font-face {
   font-family: "Adriana";
@@ -294,7 +303,7 @@ button.red {
   font-family: "Adriana";
   font-size: 4em;
   margin-bottom: 10px;
-  width: 400px;
+  width: 640px;
 }
 
 .colun1 {
@@ -367,6 +376,10 @@ button.red {
 .footerright i {
   font-size: 2.5em;
   margin-right: 50px;
+}
+
+.insta {
+  margin-right: 80px;
 }
 
 .footerright {
