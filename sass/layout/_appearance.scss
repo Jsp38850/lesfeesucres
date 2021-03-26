@@ -1,0 +1,11 @@
+/**Animation apparition **/
+
+@keyframes fadein {
+    from   { opacity: 0; }
+    to     { opacity: 1;}
+}
+
+/**Pied de page **/
+footer{
+    animation: fadein 2s 2s 1 alternate backwards ;
+}

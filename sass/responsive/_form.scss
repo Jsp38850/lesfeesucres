@@ -9,3 +9,10 @@ form {
 }
 
 }
+
+@media all and (min-width:901px) and (max-width: 1499px) {
+
+  form{
+    width: 50%;
+  }
+}

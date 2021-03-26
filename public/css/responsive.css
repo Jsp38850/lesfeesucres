@@ -20,10 +20,6 @@
     display: none;
   }
 
-  .banniere {
-    height: 220px;
-  }
-
   .text_profil {
     width: 94%;
     margin-top: 10px;
@@ -45,12 +41,57 @@
   }
 }
 @media all and (min-width: 901px) and (max-width: 1499px) {
-  nav a {
-    font-size: 1.3em;
+  .image_profil {
+    display: none;
+  }
+
+  .text_profil {
+    width: 60%;
+    margin-top: 0;
   }
 
   .enveloppe {
     width: 280px;
+  }
+
+  .filtre {
+    display: none;
+  }
+
+  /*Section produit*/
+  .img1 {
+    height: 150px;
+  }
+
+  .colun2 {
+    order: 1;
+  }
+
+  .liste, .liste2 {
+    font-size: 0.8em;
+  }
+
+  .liste2 {
+    flex-direction: column;
+  }
+
+  .colun1 {
+    order: 2;
+  }
+
+  .colun1 h1 {
+    width: 90%;
+    font-size: 3em;
+  }
+
+  .blockgrey, .blockwhite {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .colun2 img, .colun2_2 img, .colun2_1 img {
+    height: 200px;
+    width: 94%;
   }
 }
 @media all and (max-width: 900px) {
@@ -60,16 +101,14 @@
 
   .logomobile {
     display: block;
-    position: absolute;
-    left: 38%;
-    top: 2%;
-    width: 15%;
-    min-width: 100px;
+    margin: 0 auto;
   }
 
   .mobilemenu {
     height: 120px;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
   }
   .mobilemenu input {
     display: none;
@@ -234,16 +273,24 @@
     margin: 5px 10px 0 10px;
   }
 }
+/*Responsive Tablette*/
+@media all and (min-width: 901px) and (max-width: 1499px) {
+  nav a {
+    font-size: 1.2em;
+  }
+}
 @media all and (max-width: 900px) {
   form {
     padding: 16px;
     width: 90%;
   }
 }
-@media all and (max-width: 900px) {
-  .footerleft {
-    margin-left: 5px;
+@media all and (min-width: 901px) and (max-width: 1499px) {
+  form {
+    width: 50%;
   }
+}
+@media all and (max-width: 900px) {
   .footerleft p {
     margin-top: 8px;
   }
@@ -251,15 +298,6 @@
   /*Pied de page*/
   .footergrey {
     height: 120px;
-  }
-
-  .siret {
-    margin-bottom: 0px;
-  }
-
-  .footerleft {
-    font-size: 0.8em;
-    padding-top: 0;
   }
 }
 @media all and (max-width: 900px) {
@@ -685,11 +723,6 @@
 
   .avis img {
     margin-left: 0;
-  }
-
-  /*Pied de page*/
-  .footer {
-    margin-top: 15px;
   }
 }
 

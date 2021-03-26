@@ -1,27 +1,14 @@
-
-
 @media all and (max-width: 900px) {
 
-.footerleft{
-    margin-left: 5px;
-
-    p{
-        margin-top: 8px;
+    .footerleft p{
+            margin-top: 8px;
+        }
+    
+    
+     /*Pied de page*/
+    
+    .footergrey{
+        height: 120px;
     }
-}
-
- /*Pied de page*/
-
-.footergrey{
-    height: 120px;
-}
-
-.siret {
-    margin-bottom: 0px;
-}
-.footerleft {
-    font-size: 0.8em;
-    padding-top: 0;
-}
-
-}
+    
+} 

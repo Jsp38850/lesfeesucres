@@ -21,12 +21,61 @@ nav a {
   font-size: 1.6em;
 }
 
+/*Police Principal*/
+@font-face {
+  font-family: "Adriana";
+  src: url("../font/Adriana.ttf");
+}
+/*--------------------------------*/
+/*Police Gras*/
+@font-face {
+  font-family: "Adriana_italic";
+  src: url("../font/Adriana Italic.ttf");
+}
+/*--------------------------------*/
+.font_italic {
+  font-family: "Kaushan", "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 3em;
+}
+
+.font {
+  font-family: "Adriana", "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.fontparagraphe a {
+  font-family: cursive;
+  font-size: 1em;
+}
+
+.catalogue {
+  background-color: #b78383;
+  margin-right: 10px;
+  padding: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 50px;
+  color: white;
+  margin-left: 15px;
+  width: 160px;
+  margin-bottom: 15px;
+}
+
 .mobilemenu {
   display: none;
 }
 
 .logomobile {
   display: none;
+}
+
+.top {
+  position: fixed;
+  bottom: 4px;
+  right: 10px;
+}
+.top img {
+  width: 50px;
 }
 
 form {
@@ -149,6 +198,24 @@ button.red {
   margin-left: 50px;
 }
 
+.insta {
+  margin-right: 80px;
+}
+
+/**Animation apparition **/
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/**Pied de page **/
+footer {
+  animation: fadein 2s 2s 1 alternate backwards;
+}
+
 /*Page index.html (Regroupe toute les autres pages*/
 #home_page {
   background-color: #ffe5e6;
@@ -187,15 +254,6 @@ button.red {
   font-family: cursive;
 }
 
-.top {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
-.top img {
-  width: 50px;
-}
-
 /*Police Principal*/
 @font-face {
   font-family: "Adriana";
@@ -211,20 +269,6 @@ button.red {
 /*CSS general*/
 .font_italic {
   font-family: "Adriana_italic", "Trebuchet MS", Arial, Helvetica, sans-serif;
-}
-
-.catalogue {
-  text-decoration: none;
-  background-color: #b78383;
-  margin-right: 10px;
-  padding: 15px;
-  padding-left: 60px;
-  padding-right: 60px;
-  border-radius: 50px;
-  color: white;
-  margin-left: 15px;
-  width: 160px;
-  margin-bottom: 15px;
 }
 
 /*Titre de la page*/
@@ -368,24 +412,6 @@ button.red {
   box-shadow: 0 0 1em #383838;
 }
 
-/*Pied de page*/
-.footer {
-  height: 70px;
-}
-
-.footerright i {
-  font-size: 2.5em;
-  margin-right: 50px;
-}
-
-.insta {
-  margin-right: 80px;
-}
-
-.footerright {
-  float: right;
-}
-
 .footerleft p {
   margin-top: 0;
 }
@@ -437,65 +463,38 @@ button.red {
   visibility: hidden;
 }
 
-/*Police Principal*/
-@font-face {
-  font-family: "Adriana";
-  src: url("../font/Adriana.ttf");
-}
-/*--------------------------------*/
-/*Police Gras*/
-@font-face {
-  font-family: "Adriana_italic";
-  src: url("../font/Adriana Italic.ttf");
-}
-/*--------------------------------*/
-/*Logo du site*/
-.logo {
-  width: 8%;
-  min-width: 100px;
-  margin-bottom: 45px;
+/*Banniere du site*/
+.banniere {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  box-shadow: 0 0px 20px 2px #a2a2a2;
+  animation: fadein 2s 0.5s 1 alternate backwards;
 }
 
-/*--------------------------------*/
-/*Css général*/
-.font_italic {
-  font-family: "Kaushan", "Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 3em;
-}
-
-.font {
-  font-family: "Adriana", "Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 1em;
-}
-
-.fontparagraphe a {
-  font-family: cursive;
-  font-size: 1em;
-}
-
-/*Bouton aide*/
-.aide {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 40px;
-}
-
-/*Menu principal*/
-nav ul {
+/*Section présentation*/
+#presentation {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 20px 0 0 0;
-  padding: 0;
+  justify-content: space-evenly;
+  animation: fadein 2s 1s 1 alternate backwards;
 }
 
-nav li {
-  margin-right: 20px;
-  list-style-type: none;
-  margin-top: 50px;
-  margin-left: 15px;
+.menucolor2 {
+  color: brown;
+}
+
+.menucolor1 {
+  color: purple;
+}
+
+.menucolor1:hover, .menucolor2:hover {
+  color: #e062ff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8em;
 }
 
 .image_profil img {
@@ -561,10 +560,6 @@ input, textarea, select {
   margin-top: 15px;
 }
 
-label {
-  margin-bottom: 10px;
-}
-
 .nom {
   margin-left: 60px;
 }
@@ -584,76 +579,33 @@ label {
 
 .enveloppe {
   width: 400px;
-  transform: rotate(8deg);
   margin-top: 130px;
-}
-
-/**Icone reseau sociau**/
-.social {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-}
-
-.social i {
-  font-size: 2.5em;
-  color: blue;
-}
-
-/**Pied de page **/
-footer {
-  animation: fadein 2s 2s 1 alternate backwards;
-}
-
-/**Animation apparition **/
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-/*Banniere du site*/
-.banniere {
-  width: 100%;
-  height: 550px;
-  object-fit: cover;
-  box-shadow: 0 0px 20px 2px #a2a2a2;
-  animation: fadein 2s 0.5s 1 alternate backwards;
-}
-
-.Linda_banniere {
-  object-position: 0 -1080px;
-}
-
-/*Section présentation*/
-#presentation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  animation: fadein 2s 1s 1 alternate backwards;
-}
-
-.menucolor2 {
-  color: brown;
-}
-
-.menucolor1 {
-  color: purple;
-}
-
-.menucolor1:hover, .menucolor2:hover {
-  color: #e062ff;
 }
 
 .rotate {
   transform: scaleX(-1);
 }
 
-h2 {
-  text-align: center;
-  font-size: 1.8em;
+/*Logo du site*/
+.logo {
+  width: 8%;
+}
+
+/*--------------------------------*/
+/*Menu principal*/
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+  list-style-type: none;
+  margin-left: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

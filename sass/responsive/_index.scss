@@ -19,13 +19,11 @@
     }
   }
 
-.image_profil{
+  .image_profil{
     display: none;
     
 }
-.banniere{
-    height: 220px;
-}
+
 .text_profil{
     width: 94%;
     margin-top: 10px;
@@ -52,11 +50,61 @@
 
 @media all and (min-width:901px) and (max-width: 1499px) {
 
-nav a{
-  font-size: 1.3em;
+  .image_profil{
+    display: none;
+    
 }
+
+.text_profil {
+  width: 60%;
+  margin-top: 0;
+}
+
+
+
 
 .enveloppe {
   width: 280px;
+}
+
+
+
+.filtre{
+  display: none;
+}
+
+
+  /*Section produit*/
+  .img1 {
+    height: 150px;
+}
+.colun2 {
+    order: 1;
+}
+
+.liste, .liste2{
+    font-size: 0.8em;
+}
+
+.liste2{
+    flex-direction: column;
+}  
+
+.colun1 {
+    order: 2;
+}
+
+.colun1 h1 {
+    width: 90%;
+    font-size: 3em;
+}
+.blockgrey, .blockwhite {
+    height: 100%;
+    flex-direction: column;
+}
+
+.colun2 img, .colun2_2 img, .colun2_1 img {
+    height: 200px;
+    width: 94%;
 }
 }

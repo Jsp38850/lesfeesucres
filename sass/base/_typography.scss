@@ -11,3 +11,33 @@
        font-family: "Kaushan";
        font-size: 1.6em;
    }
+/*Police Principal*/
+@font-face {
+    font-family: "Adriana";
+    src: url('../font/Adriana.ttf');
+}
+
+/*--------------------------------*/
+
+/*Police Gras*/
+@font-face {
+    font-family: "Adriana_italic";
+    src: url('../font/Adriana\ Italic.ttf')
+}
+
+/*--------------------------------*/
+
+.font_italic {
+    font-family: "Kaushan", "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.font {
+    font-family: "Adriana", "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.fontparagraphe a{
+    font-family: cursive;
+    font-size: 1em;
+}
