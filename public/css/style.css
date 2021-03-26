@@ -56,6 +56,10 @@ nav a {
   margin-bottom: 15px;
 }
 
+.logo_albane {
+  border-radius: 75px;
+}
+
 .mobilemenu {
   display: none;
 }

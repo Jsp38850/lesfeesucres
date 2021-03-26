@@ -9,14 +9,15 @@
     
         <title>Les gourmandises de Tif' | Les Sucrés</title>
     
-        <!--css-->
-        <link rel="stylesheet" href="../css/catalogue.css">
+              <!--css-->
+    <link rel="stylesheet" href="../../../public/css/style.css">
+
+    <!--css responsive-->
+    <link rel="stylesheet" href="../../../public/css/responsive.css" type="text/css">
     
-        <!--css responsive-->
-        <link rel="stylesheet" href="../css/responsive/responsive.css" type="text/css">
-    
-        <!--favicon-->
-        <link rel="icon" type="image/png" href="../img/favicon.png" />
+           <!--favicon-->
+           <link rel="icon" type="image/png" href="../../../public/img/favicon/favicon.png" />
+
     
         
         <!--lien fontawesome-->
@@ -26,10 +27,25 @@
 
 <body>
 
-    <a href="../index.html"><img src="../img/question-circle-regular.svg" class="aide" alt="test" ></a>
 
     <header>
-        <h1 class="font_italic titleprincipal">Nos produits Bien être</h1>
+        <h1 class="font_italic titleprincipal">Nos Coffret</h1>
+
+         <!--Filtre version mobile-->
+         <nav class="filtermenu">
+            <h2 class="titlefilter">Filtres</h2>
+            <input id="toggle" type="checkbox" checked>
+            <ul>
+                <li><a href="#section1" onclick='window.location.reload(false)'>Coffret (part 1 )</a></li>
+                <li><a href="#section2" onclick='window.location.reload(false)'>Coffret (part 2 )</a></li>
+                <li><a href="#section3" onclick='window.location.reload(false)'>Coffret (part 3 )</a></li>
+                <li><a href="#section4" onclick='window.location.reload(false)'>Coffret (part 4 )</a></li>
+             
+               
+
+
+            </ul>
+        </nav>
 
         <div class="filtre">
             <a href="#section1">Coffret (part 1)</a>
@@ -51,7 +67,6 @@
 
             <div class="liste">
                 <ul>
-               <li>Kit Granité</li>
                <li>Coffret gourmand (sucré)</li>
                <li>Coffret "Mes cookies de la semaine"</li>
                <li>Coffret "Joyeux Anniversaire"</li>
@@ -60,13 +75,13 @@
                 </ul>
             </div>
 
-            <a href="../index.html#section3" class="catalogue">Demander le catalogue</a>
+            <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
 
         <div class="colun2_2 shadows2">
 
-            <img src="../img/produits/7Coffrets/coffret mes gateaux de la semaines.jpg" alt="test">
+            <img src="../../../public/img/produits/7Coffrets/coffret mes gateaux de la semaines.jpg" alt="test">
           
 
         </div>
@@ -79,9 +94,9 @@
 
         <div class="colun2_1 shadows1">
 
-            <img src="../img/produits/7Coffrets/coffret pop corn 2.jpg" alt="test">
+            <img src="../../../public/img/produits/7Coffrets/coffret pop corn 2.jpg" alt="test">
 
-            <img src="../img/produits/7Coffrets/coffret une soirée pour 2.jpg" alt="test">
+            <img src="../../../public/img/produits/7Coffrets/coffret une soirée pour 2.jpg" alt="test" class="img2">
 
         </div>
 
@@ -100,7 +115,7 @@
                 </ul>
             </div>
 
-            <a href="index.html#section3" class="catalogue">Demander le catalogue</a>
+            <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
 
@@ -121,18 +136,17 @@
                    <li>Coffret girly</li>
                    <li>Coffret "Mes petits dejeuners</li>
                    <li>Coffret SOS gourmandises</li>
-                   <li>Coffret SOS gourmandises + Machine à bonbon</li>
                 </ul>
             </div>
 
-            <a href="index.html#section3" class="catalogue">Demander le catalogue</a>
+            <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
 
         </div>
 
         <div class="colun2_2 shadows2">
 
-            <img src="../img/produits/7Coffrets/coffret rhum arrangé.jpg" alt="test">
+            <img src="../../../public/img/produits/7Coffrets/coffret rhum arrangé.jpg" alt="test">
 
         </div>
 
@@ -144,9 +158,9 @@
 
         <div class="colun2_1 shadows1">
 
-            <img src="../img/produits/7Coffrets/coffret gouter.jpg" alt="test">
+            <img src="../../../public/img/produits/7Coffrets/coffret gouter.jpg" alt="test">
 
-            <img src="../img/produits/7Coffrets/collection baby sucre.jpg" alt="test">
+            <img src="../../../public/img/produits/7Coffrets/collection baby sucre.jpg" alt="test" class="img2">
 
         </div>
 
@@ -164,33 +178,38 @@
                 </ul>
             </div>
 
-            <a href="index.html#section3" class="catalogue">Demander le catalogue</a>
+            <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
 
         </div>
 
     </section>
+    <a href="#" class="top"><img src="../../../public/img/top.png" alt=""></a>
 
 <!-- Pied de page  -->
-<footer class="footergrey">
+<footer class="footer">
     <div class="footerleft">
-    <p>Les gourmandises de Tif' © 2021 Tous droits réservés</p>
-    <p class="siret">Siret: 892 849 134 00010 </p>
-</div>
+        <p>Les gourmandises de Linda © 2021 Tous droits réservés</p>
+        <p class="siret">Siret: 849 747 787 00018 </p>
+    </div>
 
-<div class="footerright">
-    <a href="https://www.facebook.com/groups/256189049270560">
-    <i class="fab fa-facebook-square"></i>
+    <div class="footerright">
+        <a href="https://www.facebook.com/groups/665015731102796" target="_blank">
+            <i class="fab fa-facebook-f"></i>
 
-</a>
-</div>
+        </a>
+        <a href="http://instagram.com/les.gourmandises.de.linda/" class="insta" target="_blank">
+            <i class="fab fa-instagram"></i>
+
+        </a>
+    </div>
 </footer>
 
 <div id="bouton_page">
     <div id="center">
     <a href="Assaisonnements.Html" class="page_right"> <i class="fas fa-chevron-left"></i>Assaisonnements</a>
 
-      <a href="../index.html" class="page_index"><i class="fas fa-home"></i></a>
+      <a href="../Accueil.html" class="page_index"><i class="fas fa-home"></i></a>
   
     <!--  <a href="Vrac.Html" class="page_left">Vrac<i class="fas fa-chevron-right"></i></a>-->
    </div>   

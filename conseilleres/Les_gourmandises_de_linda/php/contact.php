@@ -11,7 +11,7 @@ $email_expediteur = 'contact@les-fees-sucrees.fr';
 $nom_expediteur = 'Contact Les gourmandises de tif.fr';
  
 // destinataire est votre adresse mail (cela peut être la même que cl'expéditeur ci-dessus). Pour envoyer à plusieurs destinataires à la fois, séparez-les par un point-virgule
-$destinataire = 'balassem.mb@gmail.com';
+$destinataire = 'lindaaru76@yahoo.com';
  
 // copie ? (envoie une copie au visiteur)
 $copie = 'oui'; // 'oui' ou 'non'
