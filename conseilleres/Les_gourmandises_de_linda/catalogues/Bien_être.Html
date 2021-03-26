@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="../../../public/css/style.css">
 
     <!--css responsive-->
-    <link rel="stylesheet" href="../css/responsive/responsive.css" type="text/css">
+    <link rel="stylesheet" href="../../../public/css/responsive.css" type="text/css">
 
         <!--favicon-->
-        <link rel="icon" type="image/png" href="public/img/fee.svg" />
+        <link rel="icon" type="image/png" href="../../../public/img/favicon/favicon.png" />
 
 
 
@@ -31,6 +31,18 @@
 
     <header>
         <h1 class="font_italic titleprincipal">Nos produits Bien être</h1>
+
+        <!--Filtre version mobile-->
+        <nav class="filtermenu">
+            <h2 class="titlefilter">Filtres</h2>
+            <input id="toggle" type="checkbox" checked>
+            <ul>
+                <li><a href="#section1" onclick='window.location.reload(false)'>Petit Dej</a></li>
+                <li><a href="#section2" onclick='window.location.reload(false)'>Biscuits apero</a></li>
+                <li><a href="#section3" onclick='window.location.reload(false)'>Sucrés</a></li>
+                <li><a href="#section4" onclick='window.location.reload(false)'>Salés</a></li>
+            </ul>
+        </nav>
 
         <div class="filtre">
             <a href="#section1">Petit Dej</a>

@@ -717,6 +717,10 @@
   .colun2 img {
     display: none;
   }
+
+  .blockgrey, .blockwhite {
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=responsive.css.map */
