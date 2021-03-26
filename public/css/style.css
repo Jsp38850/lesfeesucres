@@ -33,11 +33,6 @@ nav a {
   src: url("../font/Adriana Italic.ttf");
 }
 /*--------------------------------*/
-.font_italic {
-  font-family: "Kaushan", "Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 3em;
-}
-
 .font {
   font-family: "Adriana", "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 1em;
@@ -266,14 +261,9 @@ footer {
   src: url("../font/Adriana Italic.ttf");
 }
 /*--------------------------------*/
-/*CSS general*/
-.font_italic {
-  font-family: "Adriana_italic", "Trebuchet MS", Arial, Helvetica, sans-serif;
-}
-
 /*Titre de la page*/
 .titleprincipal {
-  font-size: 6em;
+  font-size: 4em;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -283,6 +273,7 @@ footer {
 .filtre {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 20px;
 }
@@ -290,8 +281,8 @@ footer {
 .filtre a {
   text-decoration: none;
   background-color: #b78383;
-  margin-right: 10px;
-  padding: 15px;
+  margin-right: 5px;
+  padding: 12px;
   border-radius: 50px;
   color: white;
 }
@@ -312,7 +303,7 @@ footer {
   height: 600px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -358,7 +349,7 @@ footer {
 
 /*Pour 3 images*/
 .colun2 img {
-  width: 350px;
+  width: 265px;
   height: 95%;
   object-fit: cover;
   margin-left: 15px;

@@ -60,18 +60,15 @@
   margin-top: 0;
 }
 
-
-
-
 .enveloppe {
   width: 280px;
 }
 
-
-
-.filtre{
-  display: none;
+.filtre a {
+  margin-top: 10px;
 }
+
+
 
 
   /*Section produit*/
@@ -83,28 +80,11 @@
 }
 
 .liste, .liste2{
-    font-size: 0.8em;
+    font-size: 1.1em;
 }
 
 .liste2{
     flex-direction: column;
 }  
 
-.colun1 {
-    order: 2;
-}
-
-.colun1 h1 {
-    width: 90%;
-    font-size: 3em;
-}
-.blockgrey, .blockwhite {
-    height: 100%;
-    flex-direction: column;
-}
-
-.colun2 img, .colun2_2 img, .colun2_1 img {
-    height: 200px;
-    width: 94%;
-}
 }
