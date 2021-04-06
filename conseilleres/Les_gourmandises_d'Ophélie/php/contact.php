@@ -8,10 +8,10 @@
 // Par exemple si vous mettez ce script sur votre site "test-site.com", mettez votre email @test-site.com comme expéditeur (par exemple contact@test-site.com)
 // Si vous ne changez pas cette variable, vous risquez de ne pas recevoir de formulaire.
 $email_expediteur = 'contact@les-fees-sucrees.fr';
-$nom_expediteur = 'Contact les-fees-sucrees.fr';
+$nom_expediteur = 'Contact les-fees-sucrees';
  
 // destinataire est votre adresse mail (cela peut être la même que cl'expéditeur ci-dessus). Pour envoyer à plusieurs destinataires à la fois, séparez-les par un point-virgule
-$destinataire = 'lindaaru76@yahoo.com';
+$destinataire = 'ophelie.m@hotmail.fr';
  
 // copie ? (envoie une copie au visiteur)
 $copie = 'oui'; // 'oui' ou 'non'
