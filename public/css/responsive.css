@@ -82,7 +82,9 @@
 
   .logomobile {
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    width: 125px;
+    height: 100%;
   }
 
   .mobilemenu {
