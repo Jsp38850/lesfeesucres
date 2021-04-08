@@ -8,7 +8,7 @@
 // Par exemple si vous mettez ce script sur votre site "test-site.com", mettez votre email @test-site.com comme expéditeur (par exemple contact@test-site.com)
 // Si vous ne changez pas cette variable, vous risquez de ne pas recevoir de formulaire.
 $email_expediteur = 'contact@les-fees-sucrees.fr';
-$nom_expediteur = 'Contact les-fees-sucrees';
+$nom_expediteur = 'Contact les-fees-sucrees.fr';
  
 // destinataire est votre adresse mail (cela peut être la même que cl'expéditeur ci-dessus). Pour envoyer à plusieurs destinataires à la fois, séparez-les par un point-virgule
 $destinataire = 'les.envies.de.pixiie@gmail.com';
@@ -105,7 +105,7 @@ else
 		$message = '<p style="font-size: 20px;"><u>Nom, prénom:</u></p><br/>' . $nom . 
 					'<p style="font-size: 20px;"><u>Mail:</u></p><br/>' . $email . 
 					'<br/><br/><p style="font-size: 20px;"><u>Message:</u></p><br/> '. $message . 
-					'<br/> <br/><p style="font-size: 20px;" ><u>Comment avez vous connu "Les gourmandises de Linda" ?</u></p>'. $choix ;
+					'<br/> <br/><p style="font-size: 20px;" ><u>Comment avez vous connu "Les envies de Pixiie" ?</u></p>'. $choix ;
  
 		// Envoi du mail
 		$cible = str_replace(',', ';', $cible); // antibug : j'ai vu plein de forums où ce script était mis, les gens ne font pas attention à ce détail parfois
