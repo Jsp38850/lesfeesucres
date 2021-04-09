@@ -13,7 +13,7 @@
                 <li><a href="#section3" onclick='window.location.reload(false)'>Muffins</a></li>
                 <li><a href="#section4" onclick='window.location.reload(false)'>Marbrés</a></li>
                 <li><a href="#section5" onclick='window.location.reload(false)'>Palets sablés</a></li>
-                <li><a href="#section6" onclick='window.location.reload(false)'>Gateaux magiques</a></li>
+                <li><a href="#section6" onclick='window.location.reload(false)'>Gâteaux magiques</a></li>
                 <li><a href="#section7" onclick='window.location.reload(false)'>Cake</a></li>
                 <li><a href="#section8" onclick='window.location.reload(false)'>Crumbles</a></li>
                 <li><a href="#section9" onclick='window.location.reload(false)'>Riz au lait</a></li>
@@ -60,18 +60,18 @@
             <div class="liste">
                 <ul>
                     <li>Cookies Américains: chocolat noir et flocons d'avoine</li>
-                    <li>Cookies Chocolat au lait et noix de pécan </li>
-                    <li>Cookies Chocolat noir et caramel </li>
-                    <li>Cookies Chocolat blanc et pralines roses</li>
                     <li>Cookies noisette, smarties</li>
+                    <li>Cookies Chocolat noir et  éclats de caramel </li>
+                    <li>Cookies Chocolat blanc et pralines roses</li>
+                    <li>Cookies Chocolat au lait et noix de pécan </li>
+                    <li>Cookies Chocolat Petit beurre</li>
+                    <li>Cookies Chocolat Guimauve</li>
+                    <li>Cookies Fruits de la passion</li>
+                    <li>Cookies Menthe chocolat</li>
                     <li>Cookies chocolat banane</li>
-                    <li>Cookies baie de Goji</li>
+                    <li>Cookies baies de Goji, chocolat Noir, Raisins secs</li>
                     <li>Cookies pour dire Merci: framboise, pistache</li>
                     <li>Cookies pour dire je t'aime: Fraise, framboise</li>
-                    <li>Cookies Menthe chocolat</li>
-                    <li>Cookies Fruits de la passion</li>
-                    <li>Cookies Chocolat Guimauve</li>
-                    <li>Cookies Chocolat Petit beurre</li>
                 </ul>
             </div>
 
@@ -85,8 +85,6 @@
 
             <img src="../../../public/img/produits/1Sucré/1Cookie/cookie choco lait noix pecan.jpg" alt="test" class="img2">
 
-
-
         </div>
 
     </section>
@@ -96,12 +94,6 @@
 
     <section id="section2" class="blockwhite">
 
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/1Sucré/2Moelleux/moelleux aphrodisiaque.jpg" alt="test">
-
-        </div>
-
         <div class="colun1">
 
             <h1><u>Nos Moelleux</u></h1>
@@ -109,15 +101,17 @@
             <div class="liste">
                 <ul>
                     <li>Moelleux Aphrodisiaque: gingembre, citron</li>
-                    <li>Moelleux: choco, coco</li>
+                    <li>Moelleux: chocolat , noix de coco</li>
                     <li>Moelleux Abricot</li>
                     <li>Moelleux tout caramel</li>
                     <li>Moelleux Orange Amande</li>
                 </ul>
             </div>
 
-            <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>        </div>
+            <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>        
+        </div>
 
+            <img src="../../../public/img/produits/1Sucré/2Moelleux/moelleux aphrodisiaque.jpg" alt="test" class="imgcolun2">
     </section>
 
     <!-- Section 3 Les Muffins -->
@@ -131,34 +125,21 @@
             <div class="liste">
                 <ul>
                     <li>Muffins chocolat noir</li>
-                    <li>Muffins myrtille </li>
-                    <li>Muffins framboise, pistache </li>
+                    <li>Muffins myrtilles </li>
                     <li>Muffins pain d'épices, chocolat blanc</li>
+                    <li>Muffins framboise, pistache </li>
                 </ul>
 
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
-
-        <div class="colun2_1 shadows2">
-
-            <img src="../../../public/img/produits/1Sucré/3muffins/muffins chocolat.jpg" alt="test">
-
-            <img src="../../../public/img/produits/1Sucré/3muffins/muffins framboise pistache.jpg" alt="test" class="img2">
-        </div>
-
+            <img src="../../../public/img/produits/1Sucré/3muffins/muffins framboise pistache.jpg" alt="test" class="imgcolun">
     </section>
 
-    <!-- Section 4 Les cookies -->
+    <!-- Section 4 Nos Marbrés -->
 
     <section id="section4" class="blockwhite">
-
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/1Sucré/4marbrés/2 marbé.jpg" alt="test">
-
-        </div>
 
         <div class="colun1">
 
@@ -166,9 +147,9 @@
 
             <div class="liste">
                 <ul>
+                    <li>Marbrés: pistache, chocolat</li>
                     <li>Marbrés: framboise, chocolat</li>
                     <li>Marbrés: orange, chocolat</li>
-                    <li>Marbrés: pistache, chocolat</li>
                     <li>Marbrés: vanille, chocolat</li>
                 </ul>
 
@@ -177,21 +158,33 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
+        <img src="../../../public/img/produits/1Sucré/4marbrés/2 marbé.jpg" alt="test" class="imgcolun2">
+
     </section>
 
 
-    <!-- Section 5 Les Palets sablés -->
+    <!-- Section 5 Les Palets sablés & Brownie -->
 
     <section id="section5" class="blockgrey">
 
         <div class="colun1">
 
-            <h1><u>Nos Palets sablés</u></h1>
+            <h1><u>Nos Palets sablés & Brownie</u></h1>
 
             <div class="liste">
+                
                 <ul>
-                    <li>Palets bretons: praliné en grain et caramel</li>
-                    <li>Brownie: double chocolats et spéculoos</li>
+                    <li>Brownie: </i></li>
+                    <ul>
+                    <li>Brownie:  <i>double chocolats et spéculoos </i></li> 
+                </ul>
+                </ul>
+
+                <ul>
+                    <li>Palets bretons: </i></li>
+                    <ul>
+                    <li>Palets bretons: <i>praliné en grains et caramel</i></li> 
+                </ul>
                 </ul>
 
             </div>
@@ -199,23 +192,17 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        <div class="colun2_2 shadows2">
+        
 
-            <img src="../../../public/img/produits/1Sucré/5palets_sablés/palets breton.jpg" alt="test">
+            <img src="../../../public/img/produits/1Sucré/5palets_sablés/palets breton.jpg" alt="test" class="imgcolun">
 
-        </div>
+        
 
     </section>
 
 
     <!-- Section 6 Les gateaux magiques -->
     <section id="section6" class="blockwhite">
-
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/1Sucré/6gateaux_magique/gateau magique.jpg" alt="test">
-
-        </div>
 
         <div class="colun1">
 
@@ -225,7 +212,7 @@
                 <ul>
                     <li>Gâteau magique: 2 chocolats noir et blanc </li>
                     <li>Gâteau magique: citron meringué</li>
-                    <li>Gâteau magique: I love France - praline rose et vanille</li>
+                    <li>Gâteau magique: I love France - pralines roses et vanille</li>
                     <li>Gâteau magique: Fraise</li>
                 </ul>
 
@@ -234,6 +221,9 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
+       
+        <img src="../../../public/img/produits/1Sucré/6gateaux_magique/gateau magique.jpg" alt="test" class="imgcolun2">
+       
     </section>
 
     <!-- Section 7 Les cakes -->
@@ -256,21 +246,13 @@
                     <li>Cake coup de foudre: choco blanc et pomme d'amour**</li>
                     <li>Pain d'épices*</li>
                 </ul>
-
-
-
             </div>
             <p class="info"><i>*Disponible en sachets ou en bocaux // **Uniquement en bocal</i></p>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        <div class="colun2_2 shadows2">
-
-
-            <img src="../../../public/img/produits/1Sucré/7cake/cake coup de foudre.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/1Sucré/7cake/cake 2.jpg" alt="test"  class="imgcolun">
 
     </section>
 
@@ -278,13 +260,7 @@
     <!-- Section 8 Les crumbles -->
     <section id="section8" class="blockwhite">
 
-        <div class="colun2_1 shadows1">
-
-            <img src="../../../public/img/produits/1Sucré/8crumble/crumble fruit rouge.jpg" alt="test">
-
-            <img src="../../../public/img/produits/1Sucré/8crumble/crumble gourmand.jpg" alt="test" class="img2">
-
-        </div>
+       
 
         <div class="colun1">
 
@@ -293,7 +269,7 @@
             <div class="liste">
                 <ul>
                     <li>Crumble gourmand: pomme, chocolat, amandes</li>
-                    <li>Crumble Noël: orange, pain d'épices</li>
+                    <li>Crumble orange, pain d'épices</li>
                     <li>Crumble fruits rouges: cranberries, framboise</li>
                 </ul>
 
@@ -301,7 +277,13 @@
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
+        <div class="colun2_1 shadows1">
 
+        <img src="../../../public/img/produits/1Sucré/8crumble/crumble fruit rouge.jpg" alt="test"  class="imgcolun2">
+
+        <img src="../../../public/img/produits/1Sucré/8crumble/crumble gourmand.jpg" alt="test" class="img2"  class="imgcolun2">
+
+</div>
     </section>
 
     <!-- Section 9 Les Riz au lait-->
@@ -329,24 +311,13 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/1Sucré/9riz_au_lait/riz au lait.jpg" alt="test">
-
-
-        </div>
+            <img src="../../../public/img/produits/1Sucré/9riz_au_lait/riz au lait.jpg" alt="test"  class="imgcolun">
 
     </section>
 
 
     <!-- Section 10 Madeleine-->
     <section id="section10" class="blockwhite">
-
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/1Sucré/10madeleines/madeleine.jpg" alt="test">
-
-        </div>
 
         <div class="colun1">
 
@@ -363,7 +334,7 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-
+        <img src="../../../public/img/produits/1Sucré/10madeleines/madeleine.jpg" alt="test"  class="imgcolun2">
 
     </section>
 
@@ -389,11 +360,8 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        <div class="colun2_2 shadows1">
+            <img src="../../../public/img/produits/1Sucré/11mug_cake/mug cake 3 sucré.jpg" alt="test" class="imgcolun">
 
-            <img src="../../../public/img/produits/1Sucré/11mug_cake/mug cake 3 sucré.jpg" alt="test">
-
-        </div>
 
     </section>
 
@@ -445,7 +413,7 @@
 
         <div class="colun1">
 
-            <h1><u>Nos Pâte à tarte</u></h1>
+            <h1><u>Nos Pâtes à tarte</u></h1>
 
             <div class="liste">
                 <ul>
@@ -459,22 +427,12 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/1Sucré/13Pâtes_à_tarte/pates a tarte choco.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/1Sucré/13Pâtes_à_tarte/pates a tarte choco.jpg" alt="test" class="imgcolun">
 
     </section>
 
     <!-- Section 14 Nos flans-->
     <section id="section14" class="blockwhite">
-
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/1Sucré/14Flans/flans.jpg" alt="test">
-
-        </div>
 
         <div class="colun1">
 
@@ -493,7 +451,7 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        
+        <img src="../../../public/img/produits/1Sucré/14Flans/flans.jpg" alt="test"  class="imgcolun2">
 
     </section>
 
@@ -508,7 +466,7 @@
                 <ul>
                     <li>Mousse: Framboise</li>
                     <li>Mousse: Citron</li>
-                    <li>Mousse: Fruit de la passion</li>
+                    <li>Mousse: Fruits de la passion</li>
 
                 </ul>
 
@@ -517,25 +475,16 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/1Sucré/15Mousse/mousse.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/1Sucré/15Mousse/mousse.jpg" alt="test" class="imgcolun">
 
     </section>
 
     <!-- Section 1- Pate a tartiner-->
     <section id="section16" class="blockwhite">
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/1Sucré/16Pate_a_tartiner/kit pates a tartiner montage.jpg" alt="test">
-
-        </div>
 
         <div class="colun1">
 
-            <h1><u>Nos Pâtes à tartiner (A faire soit même)</u></h1>
+            <h1><u>Nos Pâtes à tartiner </u></br>(À faire soit même)</h1>
 
             <div class="liste">
                 <ul>
@@ -554,6 +503,7 @@
 
         </div>
 
+        <img src="../../../public/img/produits/1Sucré/16Pate_a_tartiner/kit pates a tartiner montage.jpg" alt="test" class="imgcolun2">
      
 
     </section>

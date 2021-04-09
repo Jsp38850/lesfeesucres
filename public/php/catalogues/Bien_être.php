@@ -37,8 +37,7 @@
 
             <div class="liste">
                 <ul>
-                    <li>Barres de céréales figue et noisette: flocons avoine,figue, cassonade, noisette, graines de lin
-                        ,cacao</li>
+                    <li>Barres de céréales figue et noisette: flocons avoine,figue, cassonade, noisette, graines de lin,cacao</li>
                     <li>Pain aux noix & fruits secs : farine de blé, pruneaux d'Agen, noix , noisette, graines de courge
                     </li>
                     <li>Cookies healthy : flocons d’avoine , amandes , cranberries</li>
@@ -146,6 +145,7 @@
                     <li>Cake riz courgette olives : riz basmati ,courgette, olive noire, oignon, ail , thym</li>
                     <li>Pain poivrons
                     <li> Pain aubergines</li>
+                    <li>Pain aux noix et fruits secs</li>
                     <li>Cake aux lentilles corail , carotte, curry</li>
 
                 </ul>

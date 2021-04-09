@@ -47,16 +47,7 @@
         </div>
     </footer>
 
-    <div id="bouton_page">
-        <div id="center">
-        <a href="Bien_être.Html" class="page_right"> <i class="fas fa-chevron-left"></i>Bien être</a>
-    
-          <a href="../Accueil.html" class="page_index"><i class="fas fa-home"></i></a>
-      
-          <a href="Assaisonnements.Html" class="page_left">Assaisonnements<i class="fas fa-chevron-right"></i></a>
-       </div>   
-    </div>
-
+    <?php include("../../../public/php/pages/Salés.php"); ?>
 
 
 

@@ -47,17 +47,7 @@
     </footer>
 
 
-    <div id="bouton_page">
-        <div id="center">
-
-            <a href="Sucrés.Html" class="page_right"> <i class="fas fa-chevron-left"></i>Sucre</a>
-
-            <a href="../Accueil.html" class="page_index"><i class="fas fa-home"></i></a>
-
-            <a href="Confiseries.Html" class="page_left">Confiseries<i class="fas fa-chevron-right"></i></a>
-        </div>
-    </div>
-
+    <?php include("../../../public/php/pages/Boissons.php"); ?>
 
 
 </body>

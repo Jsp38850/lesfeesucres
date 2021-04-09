@@ -68,6 +68,7 @@ else
 	$objet   = (isset($_POST['objet']))   ? Rec($_POST['objet'])   : '';
 	$message = (isset($_POST['message'])) ? Rec($_POST['message']) : '';
   $choix = (isset($_POST['choix'])) ? Rec($_POST['choix']) : '';
+  $numero = (isset($_POST['numero'])) ? Rec($_POST['numero']) : '';
 	// On va vérifier les variables et l'email ...
 	$email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
  
@@ -104,8 +105,9 @@ else
 		$message = str_replace($caracteres_speciaux, $caracteres_remplacement, $message);
 		$message = '<p style="font-size: 20px;"><u>Nom, prénom:</u></p><br/>' . $nom . 
 					'<p style="font-size: 20px;"><u>Mail:</u></p><br/>' . $email . 
+					'<p style="font-size: 20px;"><u>Numero:</u></p><br/>' . $numero .
 					'<br/><br/><p style="font-size: 20px;"><u>Message:</u></p><br/> '. $message . 
-					'<br/> <br/><p style="font-size: 20px;" ><u>Comment avez vous connu "Les gourmandises de Linda" ?</u></p>'. $choix ;
+					'<br/> <br/><p style="font-size: 20px;" ><u>Comment avez vous connu "Les gourmandises de Tif" ?</u></p>'. $choix ;
  
 		// Envoi du mail
 		$cible = str_replace(',', ';', $cible); // antibug : j'ai vu plein de forums où ce script était mis, les gens ne font pas attention à ce détail parfois

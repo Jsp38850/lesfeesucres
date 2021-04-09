@@ -60,8 +60,8 @@
             <ul>
                 <li>Pain d'épices</li>
                 <li>Chocolat noir , orange</li>
-                <li>Choco noisette sans sucre</li>
-                <li>Chcolat blanc</li>
+                <li>Chocolat noisettes sans sucre</li>
+                <li>Chocolat blanc</li>
                 <li>Chocolat noir sans sucre</li>
 
 
@@ -91,7 +91,7 @@
                     <li>Chocolat au lait smarties</li>
                     <li>Chocolat au lait coeur</li>
                     <li>Chocolat au lait fleurs</li>
-                    <li>Chocolat au lait mini guimauve</li>
+                    <li>Chocolat au lait minis guimauves</li>
                     <li>Chocolat ruby</li>
                     <li>Chocolat blanc praline rose</li>
                 </ul>
@@ -139,10 +139,10 @@
                     </li>
                 </ul>
                 <ul>
-                    <li>Chocolat d'accompagnements :
+                    <li>Chocolats d'accompagnements :
                         <ul>
-                            <li>Duo gourmand 12 mini tablettes</li>
-                            <li>26 mini tablettes</li>
+                            <li>Duo gourmand 12 minis tablettes</li>
+                            <li>26 minis tablettes</li>
                         </ul>
                     </li>
                 </ul>
@@ -213,7 +213,7 @@
                     <li>Berlingots: framboise, mirabelle, fraise, abricot, cassis</li>
                     <li>Pastilles miel</li>
                     <li>Mélange 4 fruits: abricot, mirabelle, fraise, framboise </li>
-                    <li>Berlingots: caramel bonbons</li>
+                    <li>Berlingots: Bonbons Caramel</li>
                     <li>Framboise, verveine</li>
                     <li>Dragibus</li>
                     <li>Pastilles menthe</li>
@@ -223,7 +223,7 @@
                     <li>Confettis multicolores et chocolatés</li>
                     <li>Violette, coquelicot</li>
                     <li>Karaneige</li>
-                    <li>pâte de fruits</li>
+                    <li>Pâtes de fruits</li>
                     <li>Mure, framboise</li>
                     <li>Petits pois au lard bonbon</li>
                     <li>Coeur au chocolat</li>
@@ -316,7 +316,7 @@
                     <li>Pistache</li>
                     <li>Pain d'épices</li>
                     <li>Tarte tatin</li>
-                    <li>Crème brulée</li>
+                    <li>Crème brûlée</li>
                     <li>Noisette</li>
                     <li>Spéculoos</li>
                     <li>Rhum</li>
@@ -335,10 +335,10 @@
                     <li>Printemps</li>
                     <li>Abricot</li>
                     <li>Cactus</li>
-                    <li>Notes de coockies</li>
+                    <li>Notes de cookies</li>
                     <li>Notes de Petit Beurre</li>
                     <li>Ananas</li>
-                    <li>Sucre de l'écureil</li>
+                    <li>Sucre de l'écureuil</li>
 
 
                 </ul>
@@ -376,7 +376,7 @@
                     <li>Pomme verte</li>
                     <li>Pistache</li>
                     <li>Pain d'épices</li>
-                    <li>Crème brulée</li>
+                    <li>Crème brûlée</li>
                     <li>Spéculoos</li>
                     <li>Caramel</li>
                 </ul>
@@ -406,7 +406,7 @@
 
     </section>
 
-       <!-- Section 10- Pate a tartiner-->
+       <!-- Section 10- Pâte a tartiner-->
        <section id="section11" class="blockwhite">
         <div class="colun2_2 shadows1">
 
@@ -450,7 +450,7 @@
                 <ul>
                     <li>Confiture citron palet breton</li>
                     <li>Confiture poire macaron</li>
-                    <li>Confiture Bon anniversaire: ananas, cannelé</li>
+                    <li>Confiture Bon anniversaire: ananas, cannelés</li>
                     <li>Confiture Bonne fête: framboise, biscuit de Reims</li>
                     <li>Confiture Je t'aime: fraise, rose</li>
                     <li>Confiture Pour toi: abricot, calisson</li>
@@ -497,7 +497,7 @@
                     <li>Baby confiture 4 fruits rouges</li>
                     <li>Baby confiture fraise</li>
                     <li>Baby confiture pétales de roses confites</li>
-                    <li>Baby confiiture poire spéculoos</li>
+                    <li>Baby confiture poire spéculoos</li>
                     <li>Baby confiture figues violettes confits</li>
                     <li>Baby confiture mandarine, nougat</li>
                     <li>Baby confiture framboise biscuit rose de Reims</li>

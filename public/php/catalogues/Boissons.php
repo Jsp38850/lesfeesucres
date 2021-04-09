@@ -46,7 +46,7 @@
 
             <div class="liste">
                 <ul>
-                    <li>Cacao version double choco: noir et blanc</li>
+                    <li>Cacao version double chocolat: noir et blanc</li>
                     <li>Cacao version épicée: oranges confites et épices </li>
                     <li>Cacao version intense: noisette</li>
                     <li>Cacao version prestige: confiseries enrobées chocolat blanc et noir</li>
@@ -281,7 +281,7 @@
     </section>
 
 
-    <!-- Section 6 Les gateaux magiques -->
+    <!-- Section 6 Les gâteaux magiques -->
     <section id="section6" class="blockwhite">
 
         <div class="colun2_2 shadows1">
@@ -305,6 +305,7 @@
                     <li>Capitaine: guimauve, fraise, réglisse</li>
                     <li>Clown: citron, confiseries dragéifiées</li>
                     <li>Flamant rose</li>
+                    <li>Sirène: Guimauve, confiseries dragéifiées</li>
 
                 </ul>
 
@@ -365,7 +366,7 @@
                 <ul>
                     <li>Caramel</li>
                     <li>Vanille</li>
-                    <li>Crême brulée</li>
+                    <li>Crème brûlée</li>
                     <li>Noisette</li>
                 </ul>
 
@@ -387,13 +388,13 @@
 
             <div class="liste2">
                 <ul>
-                    <li>Tarte au citron: thé vert, caramel, amande, reglisse, citron, vanille</li>
+                    <li>Tarte au citron: thé vert, caramel, amande, réglisse, citron, vanille</li>
                     <li>Tarte Amandine: thé vert, poire, pomme, amande grillée</li>
                     <li>Suzette: thé vert, orange, jasmin, miel </li>
                     <li>Apple pie: thé vert, pomme, biscuit, pâte d'amande</li>
-                    <li>Congolais: thé vert, gateau, noix de coco grillée</li>
+                    <li>Congolais: thé vert, gâteau, noix de coco grillée</li>
                     <li>Macaron: thé noir, framboise, violette, rose</li>
-                    <li>Coockie: thé noir, chocolat, zeste d'orange, amande grillée</li>
+                    <li>Cookie: thé noir, chocolat, zeste d'orange, amande grillée</li>
                     <li>Rooibos muffin: rooibos "buisson rouge", biscuit, fruit rouge</li>
                 </ul>
             </div>

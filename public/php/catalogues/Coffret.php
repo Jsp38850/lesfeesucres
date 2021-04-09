@@ -43,8 +43,8 @@
                <li>Coffret gourmand (sucré)</li>
                <li>Coffret "Mes cookies de la semaine"</li>
                <li>Coffret "Joyeux Anniversaire"</li>
-               <li>Coffret Kit Mélange gourmands (salés)</li>
-               <li>Coffret "Gateaux de la semaine"</li>
+               <li>Coffret Kit Mélanges gourmands (salés)</li>
+               <li>Coffret "Gâteaux de la semaine"</li>
                 </ul>
             </div>
 
@@ -105,9 +105,9 @@
             <div class="liste">
                 <ul>
                    <li>Kit rhum arrangé</li>
-                   <li>Kit à crépe</li>
-                   <li>Coffret girly</li>
-                   <li>Coffret "Mes petits dejeuners</li>
+                   <li>Kit à crêpe</li>
+                   <li>Coffret Pasta box</li>
+                   <li>Coffret "Mes petits déjeuners</li>
                    <li>Coffret SOS gourmandises</li>
                 </ul>
             </div>
