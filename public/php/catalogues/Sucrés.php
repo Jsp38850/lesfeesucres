@@ -21,8 +21,9 @@
                 <li><a href="#section11" onclick='window.location.reload(false)'>Mug Cake</a></li>
                 <li><a href="#section12" onclick='window.location.reload(false)'>Brioche</a></li>
                 <li><a href="#section13" onclick='window.location.reload(false)'>Pâte à tarte</a></li>
-                <li><a href="#section14" onclick='window.location.reload(false)'>Mousse</a></li>
-                <li><a href="#section15" onclick='window.location.reload(false)'>Pâtes a tartiner</a></li>
+                <li><a href="#section14" onclick='window.location.reload(false)'>Flans</a></li>
+                <li><a href="#section15" onclick='window.location.reload(false)'>Mousse</a></li>
+                <li><a href="#section16" onclick='window.location.reload(false)'>Pâtes à tartiner</a></li>
             </ul>
         </nav>
 
@@ -43,7 +44,7 @@
             <a href="#section13">Pâte à tarte</a>
             <a href="#section14">Flans</a>
             <a href="#section15">Mousse</a>
-            <a href="#section16">Pâtes a tartiner</a>
+            <a href="#section16">Pâtes à tartiner</a>
         </div>
 
     </header>
@@ -56,6 +57,7 @@
         <div class="colun1">
 
             <h1><u>Nos cookies</u></h1>
+            <span><i>( À ajouter: Beurre et Oeufs ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -77,15 +79,7 @@
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>        </div>
 
-        <div class="colun2 shadows2">
-
-            <img src="../../../public/img/produits/1Sucré/1Cookie/cookie américain.jpg" alt="test">
-
-            <img src="../../../public/img/produits/1Sucré/1Cookie/cookie pour dire je taime.jpg" alt="test" class="img2">
-
-            <img src="../../../public/img/produits/1Sucré/1Cookie/cookie choco lait noix pecan.jpg" alt="test" class="img2">
-
-        </div>
+            <img src="../../../public/img/produits/1Sucré/1Cookie/cookie.jpg" alt="cookies" class="imgcolun">
 
     </section>
 
@@ -97,6 +91,7 @@
         <div class="colun1">
 
             <h1><u>Nos Moelleux</u></h1>
+            <span><i>( À ajouter: Beurre et Oeufs ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -111,7 +106,7 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>        
         </div>
 
-            <img src="../../../public/img/produits/1Sucré/2Moelleux/moelleux aphrodisiaque.jpg" alt="test" class="imgcolun2">
+            <img src="../../../public/img/produits/1Sucré/2Moelleux/moelleux aphrodisiaque.jpg" alt="Moelleux" class="imgcolun2">
     </section>
 
     <!-- Section 3 Les Muffins -->
@@ -121,6 +116,7 @@
         <div class="colun1">
 
             <h1><u>Nos Muffins</u></h1>
+            <span><i>( À ajouter: Beurre, lait et Oeufs ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -134,7 +130,8 @@
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
-            <img src="../../../public/img/produits/1Sucré/3muffins/muffins framboise pistache.jpg" alt="test" class="imgcolun">
+
+            <img src="../../../public/img/produits/1Sucré/3muffins/muffins framboise pistache.jpg" alt="Muffins" class="imgcolun">
     </section>
 
     <!-- Section 4 Nos Marbrés -->
@@ -144,6 +141,7 @@
         <div class="colun1">
 
             <h1><u>Nos Marbrés</u></h1>
+            <span><i>( À ajouter: Beurre et Oeufs ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -158,7 +156,7 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        <img src="../../../public/img/produits/1Sucré/4marbrés/2 marbé.jpg" alt="test" class="imgcolun2">
+        <img src="../../../public/img/produits/1Sucré/4marbrés/2 marbé.jpg" alt="Marbrés" class="imgcolun2">
 
     </section>
 
@@ -170,6 +168,7 @@
         <div class="colun1">
 
             <h1><u>Nos Palets sablés & Brownie</u></h1>
+            <span><i>( À ajouter: Beurre, Oeufs et sucre vanillé ) </i></span>
 
             <div class="liste">
                 
@@ -194,7 +193,7 @@
 
         
 
-            <img src="../../../public/img/produits/1Sucré/5palets_sablés/palets breton.jpg" alt="test" class="imgcolun">
+            <img src="../../../public/img/produits/1Sucré/5palets_sablés/palets breton.jpg" alt="Palets sablés & Brownie" class="imgcolun">
 
         
 
@@ -207,6 +206,7 @@
         <div class="colun1">
 
             <h1><u>Nos gâteaux magiques</u></h1>
+            <span><i>( À ajouter: Beurre, lait et Oeufs ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -222,7 +222,7 @@
         </div>
 
        
-        <img src="../../../public/img/produits/1Sucré/6gateaux_magique/gateau magique.jpg" alt="test" class="imgcolun2">
+        <img src="../../../public/img/produits/1Sucré/6gateaux_magique/gateau magique.jpg" alt="gâteaux magiques" class="imgcolun2">
        
     </section>
 
@@ -232,7 +232,8 @@
         <div class="colun1">
 
             <h1><u>Nos cakes</u></h1>
-
+            <span><i>( À ajouter: Beurre, lait et Oeufs ) </i></span>
+            
             <div class="liste2">
                 <ul>
                     <li>Cake: pralin*</li>
@@ -252,7 +253,7 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-            <img src="../../../public/img/produits/1Sucré/7cake/cake 2.jpg" alt="test"  class="imgcolun">
+            <img src="../../../public/img/produits/1Sucré/7cake/cake 2.jpg" alt="cakes"  class="imgcolun">
 
     </section>
 
@@ -260,11 +261,10 @@
     <!-- Section 8 Les crumbles -->
     <section id="section8" class="blockwhite">
 
-       
-
         <div class="colun1">
 
             <h1><u>Nos crumbles</u></h1>
+            <span><i>( À ajouter: Beurre et fruits ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -277,13 +277,9 @@
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
-        <div class="colun2_1 shadows1">
 
-        <img src="../../../public/img/produits/1Sucré/8crumble/crumble fruit rouge.jpg" alt="test"  class="imgcolun2">
+        <img src="../../../public/img/produits/1Sucré/8crumble/crumble.jpg" alt="Crumbles"  class="imgcolun2">
 
-        <img src="../../../public/img/produits/1Sucré/8crumble/crumble gourmand.jpg" alt="test" class="img2"  class="imgcolun2">
-
-</div>
     </section>
 
     <!-- Section 9 Les Riz au lait-->
@@ -293,6 +289,7 @@
         <div class="colun1">
 
             <h1><u>Nos Riz au lait</u></h1>
+            <span><i>(À ajouter: lait) </i></span>
 
             <div class="liste">
                 <ul>
@@ -311,7 +308,7 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-            <img src="../../../public/img/produits/1Sucré/9riz_au_lait/riz au lait.jpg" alt="test"  class="imgcolun">
+            <img src="../../../public/img/produits/1Sucré/9riz_au_lait/riz au lait.jpg" alt="Riz au lait"  class="imgcolun">
 
     </section>
 
@@ -322,6 +319,7 @@
         <div class="colun1">
 
             <h1><u>Nos madeleines</u></h1>
+            <span><i>( À ajouter: Beurre, Oeufs et sucre vanillé ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -334,7 +332,7 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        <img src="../../../public/img/produits/1Sucré/10madeleines/madeleine.jpg" alt="test"  class="imgcolun2">
+        <img src="../../../public/img/produits/1Sucré/10madeleines/madeleine.jpg" alt="madeleine"  class="imgcolun2">
 
     </section>
 
@@ -344,6 +342,7 @@
         <div class="colun1">
 
             <h1><u>Nos mug cake</u></h1>
+            <span><i>( À ajouter: Beurre et Oeufs ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -368,12 +367,6 @@
     <!-- Section 12 Brioche & Gateau licorne-->
     <section id="section12" class="blockwhite">
 
-        <div class="colun2_1 shadows1">
-
-            <img src="../../../public/img/produits/1Sucré/12Brioche/brioche.jpg" alt="test">
-            <img src="../../../public/img/produits/1Sucré/12Brioche/licorne.jpg" alt="test" class="img2">
-
-        </div>
 
         <div class="colun1">
 
@@ -403,7 +396,7 @@
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
-
+        <img src="../../../public/img/produits/1Sucré/12Brioche/brioche.jpg" alt="Brioche" class="imgcolun2">
        
 
     </section>
@@ -418,8 +411,6 @@
             <div class="liste">
                 <ul>
                     <li>Pâte à tarte: Chocolat , coco</li>
-                   
-
                 </ul>
 
             </div>
@@ -427,7 +418,7 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-            <img src="../../../public/img/produits/1Sucré/13Pâtes_à_tarte/pates a tarte choco.jpg" alt="test" class="imgcolun">
+            <img src="../../../public/img/produits/1Sucré/13Pâtes_à_tarte/pates a tarte choco.jpg" alt="pate  a tarte" class="imgcolun">
 
     </section>
 
@@ -437,21 +428,20 @@
         <div class="colun1">
 
             <h1><u>Nos Flans</u></h1>
+            <span><i>( À ajouter: lait ) </i></span>
 
             <div class="liste">
                 <ul>
                     <li>Flan : Framboise, vanille</li>
                     <li>Flan: Coco, vanille </li>
                     <li>Flan: Chocolat, vanille</li>
-
                 </ul>
-
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        <img src="../../../public/img/produits/1Sucré/14Flans/flans.jpg" alt="test"  class="imgcolun2">
+        <img src="../../../public/img/produits/1Sucré/14Flans/flans.jpg" alt="Flan"  class="imgcolun2">
 
     </section>
 
@@ -461,6 +451,7 @@
         <div class="colun1">
 
             <h1><u>Nos mousses</u></h1>
+            <span><i>( À ajouter: lait ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -475,7 +466,7 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-            <img src="../../../public/img/produits/1Sucré/15Mousse/mousse.jpg" alt="test" class="imgcolun">
+            <img src="../../../public/img/produits/1Sucré/15Mousse/mousse.jpg" alt="Mousse" class="imgcolun">
 
     </section>
 
@@ -484,7 +475,8 @@
 
         <div class="colun1">
 
-            <h1><u>Nos Pâtes à tartiner </u></br>(À faire soit même)</h1>
+            <h1><u>Nos Pâtes à tartiner </u></br>(À faire soi-même)</h1>
+            <span><i>( À ajouter: huile végétale ) </i></span>
 
             <div class="liste">
                 <ul>

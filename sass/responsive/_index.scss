@@ -23,6 +23,10 @@
     display: none;
     
 }
+.image_profil2{
+  display: none;
+  
+}
 
 .text_profil{
     width: 94%;
@@ -46,15 +50,35 @@
 .question {
   font-size: 0.9em;
 }
+
+
+.imgcolun{
+  height: 200px;
+  width: 94%;
+  object-fit: cover;
+  
+}
+.imgcolun2{
+  height: 200px;
+  width: 94%;
+  object-fit: cover;
 }
 
+.colun1{
+  width: 100%;
+}
+}
+/*Écrans Tablettes*/
 @media all and (min-width:901px) and (max-width: 1499px) {
 
-  .image_profil{
-    display: none;
+.image_profil{
+  display: none;
     
 }
-
+.image_profil2{
+  display: none;
+  
+}
 .text_profil {
   width: 60%;
   margin-top: 0;
@@ -68,6 +92,9 @@
   margin-top: 10px;
 }
 
+.imgcolun, .imgcolun2{
+  display: none;
+}
 
 
 
@@ -87,4 +114,8 @@
     flex-direction: column;
 }  
 
+}
+
+.banniereobject{
+  height: 100%;
 }

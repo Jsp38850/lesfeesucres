@@ -8,29 +8,39 @@
             <input id="toggle" type="checkbox" checked>
             <ul>
                 <li><a href="#section1" onclick='window.location.reload(false)'>Risotto</a></li>
-                <li><a href="#section2" onclick='window.location.reload(false)'>Riz</a></li>
-                <li><a href="#section3" onclick='window.location.reload(false)'>Soupe</a></li>
-                <li><a href="#section4" onclick='window.location.reload(false)'>Pâtes</a></li>
-                <li><a href="#section5" onclick='window.location.reload(false)'>Sauces</a></li>
-                <li><a href="#section6" onclick='window.location.reload(false)'>Cake</a></li>
-                <li><a href="#section7" onclick='window.location.reload(false)'>Mug Cake</a></li>
-                <li><a href="#section8" onclick='window.location.reload(false)'>Biscuits salés</a></li>
-                <li><a href="#section9" onclick='window.location.reload(false)'>Terrine</a></li>
-                <li><a href="#section10" onclick='window.location.reload(false)'>Tartinable</a></li>
+                <li><a href="#section3" onclick='window.location.reload(false)'>Riz</a></li>
+                <li><a href="#section4" onclick='window.location.reload(false)'>Soupe</a></li>
+                <li><a href="#section5" onclick='window.location.reload(false)'>Madeleine</a></li>
+                <li><a href="#section6" onclick='window.location.reload(false)'>Pâtes</a></li>
+                <li><a href="#section7" onclick='window.location.reload(false)'>Sauces</a></li>
+                <li><a href="#section8" onclick='window.location.reload(false)'>Terrine</a></li>
+                <li><a href="#section9" onclick='window.location.reload(false)'>Cake</a></li>
+                <li><a href="#section10" onclick='window.location.reload(false)'>Biscuits salés</a></li>
+                <li><a href="#section11" onclick='window.location.reload(false)'>Tartinable</a></li>
+                <li><a href="#section12" onclick='window.location.reload(false)'>Mug Cake</a></li>
+                <li><a href="#section13" onclick='window.location.reload(false)'>Galettes</a></li>
+                <li><a href="#section14" onclick='window.location.reload(false)'>Pâtes à tarte</a></li>
+                
             </ul>
         </nav>
 
         <div class="filtre">
             <a href="#section1">Risotto</a>
-            <a href="#section2">Riz</a>
-            <a href="#section3">Soupe</a>
-            <a href="#section4">Pâtes</a>
-            <a href="#section5">Sauces</a>
-            <a href="#section7">Cake</a>
-            <a href="#section10">Mug Cake</a>
-            <a href="#section8">Biscuits salés</a>
-            <a href="#section6">Terrine</a>
-            <a href="#section9">Tartinable</a>
+            <a href="#section3">Riz</a>
+            <a href="#section4">Soupe</a>
+            <a href="#section5">Madeleine</a>
+            <a href="#section6">Pâtes</a>
+            <a href="#section7">Sauces</a>
+            <a href="#section8">Terrine</a>
+            <a href="#section9">Cake</a>
+            <a href="#section10">Biscuits salés</a>
+            <a href="#section11">Tartinable</a>
+            <a href="#section12">Mug Cake</a>
+            <a href="#section13">Galettes</a>
+            <a href="#section14">Pâtes à tarte</a>
+            
+            
+            
 
         </div>
 
@@ -57,7 +67,6 @@
                     <li>Risotto 50 nuances de green: poivrons, piments</li>
                     <li>Risotto Bollywood: carottes, raisins, oignons et curry</li>
                     <li>Risotto Basilic instinct: tomates, basilics</li>
-
                 </ul>
             </div>
 
@@ -70,8 +79,8 @@
     </section>
 
 
-    <!-- Section 1 Nos Risottos en sachets -->
-    <section id="section1" class="blockwhite">
+    <!-- Section 2 Nos Risottos en sachets -->
+    <section id="section2" class="blockwhite">
 
         <div class="colun1">
 
@@ -87,23 +96,18 @@
                     <li>Risotto Légume du soleil: riz, tomates, poivrons, aubergines</li>
                     <li>Risotto Méditerranéen: riz, tomates, courgettes, aubergine, olives noires</li>
                 </ul>
-
-               
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
 
-            <img src="../../../public/img/produits/5Salés/1Risotto/Risotto.jpg" alt="test" class="imgcolun">
+            <img src="../../../public/img/produits/5Salés/1Risotto/Risotto.jpg" alt="test" class="imgcolun2">
 
     </section>
 
-    <!-- Section 2 Nos Riz -->
-
-    <section id="section2" class="blockgrey">
-
-        
+    <!-- Section 3 Nos Riz -->
+    <section id="section3" class="blockgrey">
 
         <div class="colun1">
 
@@ -124,18 +128,14 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
-        <div class="colun2_1 shadows1">
 
-<img src="../../../public/img/produits/5Salés/2Riz/riz 1.jpg" alt="test">
+            <img src="../../../public/img/produits/5Salés/2Riz/riz 2.jpg" alt="test" class="imgcolun">
 
-<img src="../../../public/img/produits/5Salés/2Riz/riz 2.jpg" alt="test" class="img2">
-
-</div>
     </section>
 
-    <!-- Section 3 Les Muffins -->
+    <!-- Section 4 Nos Soupes -->
 
-    <section id="section3" class="blockwhite">
+    <section id="section4" class="blockwhite">
 
         <div class="colun1">
 
@@ -162,18 +162,18 @@
 
     </section>
 
-       <!-- Section 5 Les Palets sablés -->
+       <!-- Section 5 Nos Madeleines, Cookies & Fougasse -->
 
        <section id="section5" class="blockgrey">
 
-<div class="colun1">
+            <div class="colun1">
 
     <h1><u>Nos Madeleines, Cookies & Fougasse </u></h1>
 
-    <div class="liste">
-        <ul>
-            <li>Nos Madeleines</li>
-            <ul>
+            <div class="liste">
+                <ul>
+                    <li>Nos Madeleines</li>
+                <ul>
                 <li>Madeleine : tomates, basilics</li>
             </ul>   
         </ul>
@@ -204,17 +204,9 @@
 
 </section>
 
-    <!-- Section 4 Les cookies -->
+    <!-- Section 6 Nos Pâtes -->
 
-    <section id="section4" class="blockwhite">
-
-        <div class="colun2_1 shadows1">
-
-            <img src="../../../public/img/produits/5Salés/4Pates/pates 2.jpg" alt="test">
-
-            <img src="../../../public/img/produits/5Salés/4Pates/pates.jpg" alt="test" class="img2">
-
-        </div>
+    <section id="section6" class="blockwhite">
 
         <div class="colun1">
 
@@ -222,10 +214,9 @@
 
             <div class="liste">
                 <ul>
-
                     <li>Pâtes étoiles et sapins</li>
                     <li>Pâtes papillons</li>
-                    <li>Pâtes petits coeurs</li>
+                    <li>Pâtes petits coeur</li>
                     <li>Pâtes champignon</li>
                     <li>Pâtes fleur de lys</li>
                     <li>Pâtes papillon noires et blanches : encres de seiches</li>
@@ -240,12 +231,14 @@
 
         </div>
 
+        <img src="../../../public/img/produits/5Salés/4Pates/pates.jpg" alt="test" class="imgcolun2">
+
     </section>
 
 
-    <!-- Section 5 Nos Sauces & Herbes -->
+    <!-- Section 7 Nos Sauces & Herbes -->
 
-    <section id="section5" class="blockgrey">
+    <section id="section7" class="blockgrey">
 
         <div class="colun1">
 
@@ -258,18 +251,16 @@
                         <li>Italienne: Tomates, olives, basilics, persils, ails et piments</li>
                         <li>Grillade: Thyms, romarins, basilics, sarriettes, lavandes, marjolaines et tomates</li>
                         <li>Frittata: Sels, échalotes, moutardes, romarins, ails, maniguettes, thyms</li>
-                       
-                    </ul>
-                   
+                    </ul> 
                 </ul>
 
                 <ul>
                     <li>Nos Sauces:</li>
-                    <ul>
-                    <li> Arrabiata : tomates, poivrons rouges, aubergines, oignons, piments fort , ails, basilics</li>
-                    <li>Forestier : carottes, tomates, champignons, oignons, ails , persils</li>
-                    <li>Légumes du soleil : tomates, poivrons rouges et verts , aubergines, oignons, ails et basilics</li>
-                </ul>
+                        <ul>
+                            <li> Arrabiata : tomates, poivrons rouges, aubergines, oignons, piments fort , ails, basilics</li>
+                            <li>Forestier : carottes, tomates, champignons, oignons, ails , persils</li>
+                            <li>Légumes du soleil : tomates, poivrons rouges et verts , aubergines, oignons, ails et basilics</li>
+                        </ul>
                 </ul>
 
             </div>
@@ -285,8 +276,8 @@
     </section>
 
 
-    <!-- Section 6 terrines -->
-    <section id="section6" class="blockwhite">
+    <!-- Section 8 Nos Terrines -->
+    <section id="section8" class="blockwhite">
 
         <div class="colun1">
 
@@ -313,14 +304,11 @@
                     <li>Rilles de poulet citron vert</li>
                     <li>Frairine d'escargots à la persillade</li>
                     <li>Frairine de cuisses de grenouilles à l'Aligoté</li>
-
-
                 </ul>
 
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
-
 
         </div>
 
@@ -328,8 +316,8 @@
 
     </section>
 
-    <!-- Section 7 Les cakes -->
-    <section id="section7" class="blockgrey">
+    <!-- Section 9 Les cakes -->
+    <section id="section9" class="blockgrey">
 
         <div class="colun1">
 
@@ -337,10 +325,25 @@
 
             <div class="liste2">
                 <ul>
-                    <li>Cake indien : abricots , carottes, pruneaux d 'Agen, oignons, curry, ails</li>
+                    <li>Cake indien : abricots , carottes, pruneaux d 'Agen, oignons, curry, ails </li>
                     <li>Cake provençal : tomates, poivrons, courgettes, aubergines, oignons, thyms, ails</li>
                     <li>Cake façon tarte au thon : tomates, olives noires, moutardes, herbes de Pce</li>
-                   <li>Cake Chèvre, Noix: Tomate séchées et noix</li>
+                   <li>Cake Chèvre, Noix 
+                        <!--<i class="fas fa-camera">
+                            <span><img src="../../../public/img/Cake_avant.jpg" alt="test" class="imghover"></span>
+                        </i>
+                   <i class="fas fa-utensils">
+                   <span><img src="../../../public/img/cake_apres.jpg" alt="test" class="imghover"></span>
+
+                   </i>
+                   <i class="fas fa-clipboard-list">
+                      
+                   </i>
+                   <ul class="test">
+                       <li>Tomate séchées</li>
+                       <li>Noix</li>
+                       </ul>-->
+                   </li>
                    <li>Cake Tomate, olive</li>
                 </ul>
             </div>
@@ -355,8 +358,8 @@
     </section>
 
 
-    <!-- Section 8 Les crumbles -->
-    <section id="section8" class="blockwhite">
+    <!-- Section 10 Nos Biscuits salés -->
+    <section id="section10" class="blockwhite">
 
         <div class="colun1">
 
@@ -364,7 +367,6 @@
 
             <div class="liste">
                 <ul>
-
                     <li> ail et fines herbes</li>
                     <li>Tomate, épice et arômate</li>
                     <li>Fourme d'Ambert et noix</li>
@@ -372,22 +374,20 @@
                     <li>Tapenade, olive et anchois</li>
                     <li>Cantal et oignons grillés</li>
                     <li>Chorizo cantal</li>
-
-
                 </ul>
-
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
-
         </div>
+
         <img src="../../../public/img/produits/5Salés/10Biscuit/margotte.jpg" alt="test" class="imgcolun2">
+
     </section>
 
-    <!-- Section 9 Les Riz au lait-->
+    <!-- Section 11 Nos Tartinables-->
 
-    <section id="section9" class="blockgrey">
+    <section id="section11" class="blockgrey">
 
         <div class="colun1">
 
@@ -403,7 +403,6 @@
                     <li> Artichaut truffes “Sel de Guérande”</li>
                     <li> carottes au miel & canard au poivre vert</li>
                     <li>Fruits de mer au curry</li>
-
                 </ul>
 
                 <ul>
@@ -415,7 +414,6 @@
                     <li>Rouget aux légumes de soleil & feta “Sel de Guérande”</li>
                     <li>Thon piquillos, chorizo doux “ Piment d'Espelette”</li>
                     <li>St Jacques à la truffe (Rillette)</li>
-
                 </ul>
 
             </div>
@@ -425,17 +423,13 @@
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
             <img src="../../../public/img/produits/5Salés/9Tartinable/tartinable.jpg" alt="test" class="imgcolun">
-
-        </div>
 
     </section>
 
 
-    <!-- Section 10 Madeleine-->
-    <section id="section10" class="blockwhite">
+    <!-- Section 12 Nos Mug Cake-->
+    <section id="section12" class="blockwhite">
  
 
         <div class="colun1">
@@ -447,7 +441,6 @@
                     <li>Mug cake salé : tomates poivrons</li>
                     <li>Mug cake salé : tomates courgettes</li>
                     <li>Mug cake salé : carottes curry</li>
-
                 </ul>
 
             </div>
@@ -461,9 +454,10 @@
 
 
     </section>
- <!-- Section 11 Galette de pomme de terre-->
 
- <section id="section9" class="blockgrey">
+ <!-- Section 13 Galette de pomme de terre-->
+
+ <section id="section13" class="blockgrey">
 
     <div class="colun1">
 
@@ -471,35 +465,23 @@
 
         <div class="liste">
             <ul>
-    <li>Originale : Pommes de terres , oignons</li>
-    <li>Méditerranéenne: pommes de terres, poivrons, tomates, aubergines, basilics</li>
-    <li>Potagère: pommes de terres, petits pois, carottes, poireaux, persils</li>
-    <li>Orientale: Pommes de terres , tomates, poivrons , oignons, curry </li>
-
+                <li>Originale : Pommes de terres , oignons</li>
+                <li>Méditerranéenne: pommes de terres, poivrons, tomates, aubergines, basilics</li>
+                <li>Potagère: pommes de terres, petits pois, carottes, poireaux, persils</li>
+                <li>Orientale: Pommes de terres , tomates, poivrons , oignons, curry </li>
             </ul>
-
-      
-
         </div>
 
         <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
-
     </div>
-
- 
 
         <img src="../../../public/img/produits/5Salés/11galette/galette de pomme de terre.jpg" alt="test" class="imgcolun" >
 
-  
 </section>
 
- <!-- Section 12 pate a tarte-->
- <section id="section10" class="blockwhite">
-
-       
-
-
+ <!-- Section 14 pate a tarte-->
+ <section id="section14" class="blockwhite">
 
     <div class="colun1">
 
@@ -510,21 +492,19 @@
                 <li>Façon Ratatouille</li>
                 <li>Maïs et Courgette</li>
                 <li>Façon Pesto Tomates</li>
-
             </ul>
 
         </div>
 
         <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
-
     </div>
+
     <img src="../../../public/img/produits/5Salés/12pate_a_tarte/pâtes à tarte mais.jpg" alt="test" class="imgcolun2">
 
-
 </section>
-<a href="#" class="top"><img src="../../../public/img/top.png" alt=""></a>
 
+    
 
 </body>
 

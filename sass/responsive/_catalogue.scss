@@ -52,7 +52,7 @@
 
     .colun1 h1 {
         width: 90%;
-        font-size: 3em;
+        font-size: 2em;
     }
     .blockgrey, .blockwhite {
         height: 100%;
@@ -297,6 +297,21 @@
         right: 10px;
         width: 30px;
     }
+
+    .imghover {
+        width: 339px;
+        position: absolute;
+        left: 16px;
+    top: 496px;
+        border-radius: 23px;
+    }
+
+    
+.imgwhite {
+    width: 94%;
+    height: 200px;
+    margin-top: 15px;
+}
 }
 
 /*Responsive entre 901px & 1499px*/

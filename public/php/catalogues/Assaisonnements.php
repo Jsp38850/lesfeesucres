@@ -56,9 +56,6 @@
                     <li>Sel à patate</li>
                     <li>Sel italiens</li>
                     <li>Sel rose de l'Himalaya aux pétales de roses</li>
-
-
-
                 </ul>
 
                 <ul>
@@ -79,28 +76,13 @@
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-
-            <img src="../../../public/img/produits/6Assaisonement/sel.jpg" alt="test">
-
-
-
-
-        </div>
+            <img src="../../../public/img/produits/6Assaisonement/sel.jpg" alt="test" class="imgcolun">
 
     </section>
 
-    <!-- Section 2 Les Moelleux -->
+    <!-- Section 2 Nos Baby Sel -->
 
     <section id="section2" class="blockwhite">
-
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/6Assaisonement/baby_sel.jpeg" alt="test">
-
-
-        </div>
 
         <div class="colun1">
 
@@ -126,9 +108,11 @@
 
         </div>
 
+        <img src="../../../public/img/produits/6Assaisonement/baby_sel.jpeg" alt="test" class="imgcolun2">
+
     </section>
 
-    <!-- Section 3 Les Muffins -->
+    <!-- Section 3 Nos poivres -->
 
     <section id="section3" class="blockgrey">
 
@@ -144,7 +128,6 @@
                             <li>Poivre aux 5 baies ( poivre noir, blanc , vert , piment de Jamaïque, baies roses)</li>
                             <li> Poivre noir</li>
                             <li>Poivre Sichuan</li>
-
                         </ul>
                     </li>
                     </br>
@@ -155,7 +138,6 @@
                             </li>
                             <li> Baby poivre noir</li>
                             <li>Baby poivre Sichuan</li>
-
                         </ul>
                     </li>
 
@@ -169,24 +151,13 @@
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/6Assaisonement/poivres.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/6Assaisonement/poivres.jpg" alt="test" class="imgcolun">
 
     </section>
 
-    <!-- Section 4 Les cookies -->
+    <!-- Section 4 Nos Moutardes -->
 
     <section id="section4" class="blockwhite">
-
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/6Assaisonement/moutarde.jpg" alt="test">
-
-
-        </div>
 
         <div class="colun1">
 
@@ -214,6 +185,8 @@
 
 
         </div>
+
+        <img src="../../../public/img/produits/6Assaisonement/moutarde.jpg" alt="test" class="imgcolun2">
 
     </section>
 
@@ -258,12 +231,7 @@
 
         </div>
 
-        <div class="colun2_1 shadows2">
-
-            <img src="../../../public/img/produits/6Assaisonement/huile.jpg" alt="test">
-            <img src="../../../public/img/produits/6Assaisonement/vinaigre.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/6Assaisonement/huile.jpg" alt="test" class="imgcolun">
 
     </section>
 
@@ -272,59 +240,40 @@
 
     <section id="section6" class="blockwhite">
 
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/6Assaisonement/assortiment table.jpg" alt="test">
-
-
-        </div>
-
         <div class="colun1">
 
             <h1><u>Nos Présentoirs</u></h1>
 
             <div class="liste">
                 <ul>
-
                     <li>Présentoirs à salade: </li>
-
                     <ul>
-
                         <li>Huile d 'olive: tomate, basilic</li>
                         <li>Vinaigre de balsamique</li>
                         <li>Sel tomate basilic</li>
                         <li>Poivre aux 5 baies ( poivre noir, blanc , vert , piment de Jamaïque, baies roses)</li>
-
-
                     </ul>
-
                 </ul>
 
                 <ul>
-
                     <li>Présentoirs à Barbecue: </li>
-
                     <ul>
                         <li>Huile d'olive: Herbe de provence</li>
                         <li>Vinaigre de Xérès</li>
                         <li>Sel aux poivrons et piment d'Espelette</li>
                         <li>Poivre aux 5 baies ( poivre noir, blanc , vert , piment de Jamaïque, baies roses)</li>
                     </ul>
-
                 </ul>
 
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
-
         </div>
 
+        <img src="../../../public/img/produits/6Assaisonement/assortiment table.jpg" alt="test" class="imgcolun2">
+
     </section>
-
-
-
-
 
     <!-- Section 7 Réglette -->
 
@@ -348,11 +297,7 @@
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/6Assaisonement/reglette.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/6Assaisonement/reglette.jpg" alt="test" class="imgcolun">
 
     </section>
 

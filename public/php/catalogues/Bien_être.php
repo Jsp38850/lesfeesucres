@@ -23,12 +23,10 @@
             <a href="#section2">Biscuits apero</a>
             <a href="#section3">Sucrés</a>
             <a href="#section4">Salés</a>
-
-
     </header>
 
 
-    <!-- Section 1 Les cookies -->
+    <!-- Section 1 Nos Petit Déjeuner -->
     <section id="section1" class="blockgrey">
 
         <div class="colun1">
@@ -51,26 +49,14 @@
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/4Bien_etre/granola.jpg" alt="test">
-
-
-
-
-        </div>
+            <img src="../../../public/img/produits/4Bien_etre/granola.jpg" alt="test" class="imgcolun">
 
     </section>
 
-    <!-- Section 2 Les Moelleux -->
+    <!-- Section 2Nos Biscuits apéritifs -->
 
     <section id="section2" class="blockwhite">
 
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/4Bien_etre/apero bien etre.jpg" alt="test">
-
-        </div>
 
         <div class="colun1">
 
@@ -88,10 +74,12 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
+        
+        <img src="../../../public/img/produits/4Bien_etre/apero bien etre.jpg" alt="test" class="imgwhite">
 
     </section>
 
-    <!-- Section 3 Les Muffins -->
+    <!-- Section 3 Nos Sucrés -->
 
     <section id="section3" class="blockgrey">
 
@@ -103,36 +91,22 @@
                 <ul>
                     <li>Fondant aux noisettes : poudre amande, cassonade, noisettes</li>
                     <li>Cake coco banane : farine de riz, noix de coco râpée, arôme banane</li>
-                            <li>Cookies gourmands : farine de riz, pépites de chocolat noir, & noisettes, cacao</li>
-                            <li>Cake châtaigne choco raisins : farine de châtaigne, raisins secs, pépites choco</li>
-
+                    <li>Cookies gourmands : farine de riz, pépites de chocolat noir, & noisettes, cacao</li>
+                    <li>Cake châtaigne choco raisins : farine de châtaigne, raisins secs, pépites choco</li>
                 </ul>
-
-
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
-
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/4Bien_etre/sucré bien etre.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/4Bien_etre/sucré bien etre.jpg" alt="test" class="imgcolun">
 
     </section>
 
-    <!-- Section 4 Les cookies -->
+    <!-- Section 4 Nos Salés -->
 
     <section id="section4" class="blockwhite">
-
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/4Bien_etre/pain au poivron.jpg" alt="test">
-
-        </div>
 
         <div class="colun1">
 
@@ -147,16 +121,16 @@
                     <li> Pain aubergines</li>
                     <li>Pain aux noix et fruits secs</li>
                     <li>Cake aux lentilles corail , carotte, curry</li>
-
                 </ul>
 
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
-
         </div>
 
+        <img src="../../../public/img/produits/4Bien_etre/pain au poivron.jpg" alt="test" class="imgcolun2">
+        
     </section>
 
     <a href="#" class="top"><img src="../../../public/img/top.png" alt=""></a>

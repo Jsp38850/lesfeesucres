@@ -1,6 +1,4 @@
 <body>
-
-
     <header>
 
         <h1 class="font_italic titleprincipal">Nos Confiseries</h1>
@@ -10,77 +8,71 @@
             <h2 class="titlefilter">Filtres</h2>
             <input id="toggle" type="checkbox" checked>
             <ul>
-                <li><a href="#section1" onclick='window.location.reload(false)'>Cuillères en chocolat</a></li>
-                <li><a href="#section2" onclick='window.location.reload(false)'>tablettes</a></li>
-                <li><a href="#section3" onclick='window.location.reload(false)'>cornets gourmands</a></li>
-                <li><a href="#section4" onclick='window.location.reload(false)'>bonbonnières</a></li>
-                <li><a href="#section5" onclick='window.location.reload(false)'>meringues</a></li>
-                <li><a href="#section6" onclick='window.location.reload(false)'>pâte à tartiner</a></li>
-                <li><a href="#section7" onclick='window.location.reload(false)'>confitures</a></li>
-                <li><a href="#section10" onclick='window.location.reload(false)'>Baby Sucre</a></li>
-                <li><a href="#section8" onclick='window.location.reload(false)'>sucres</a></li>
-                <li><a href="#section9" onclick='window.location.reload(false)'>Baby Sucre</a></li>
-               
-
-
+                <li><a href="#section1" onclick='window.location.reload(false)'>Pâtes à tartiner</a></li>
+                <li><a href="#section2" onclick='window.location.reload(false)'>Cuillères en chocolat</a></li>
+                <li><a href="#section3" onclick='window.location.reload(false)'>Tablettes</a></li>
+                <li><a href="#section4" onclick='window.location.reload(false)'>Cornets gourmands</a></li>
+                <li><a href="#section5" onclick='window.location.reload(false)'>Bonbonnières</a></li>
+                <li><a href="#section6" onclick='window.location.reload(false)'>Meringues</a></li>
+                <li><a href="#section7" onclick='window.location.reload(false)'>Sucres</a></li>
+                <li><a href="#section8" onclick='window.location.reload(false)'>Baby Sucre</a></li>
+                <li><a href="#section9" onclick='window.location.reload(false)'>Pâtes à tartiner (Maison)</a></li>
+                <li><a href="#section10" onclick='window.location.reload(false)'>Confitures</a></li>
+                <li><a href="#section11" onclick='window.location.reload(false)'>Baby Confitures</a></li>
             </ul>
         </nav>
 
+         <!--Filtres-->
         <div class="filtre">
-            <a href="#section1">Cuillères en chocolat</a>
-            <a href="#section2">tablettes</a>
-            <a href="#section3">cornets gourmands</a>
-            <a href="#section4">bonbonnières</a>
-            <a href="#section5">meringues</a>
-            <a href="#section6">pâte à tartiner</a>
-            <a href="#section7">confitures</a>
-            <a href="#section10">confitures</a>
-            <a href="#section8">sucres</a>
-            <a href="#section9">Baby Sucres</a>
+            <a href="#section1">Pâtes à tartiner</a>
+            <a href="#section2">Cuillères en chocolat</a>
+            <a href="#section3">Tablettes</a>
+            <a href="#section4">Cornets gourmands</a>
+            <a href="#section5">Bonbonnières</a>
+            <a href="#section6">Meringues</a>
+            <a href="#section7">Sucres</a>
+            <a href="#section8">Baby Sucres</a>
+            <a href="#section9">Pâtes à tartiner (Maison)</a>
+            <a href="#section10">Confitures</a>
+            <a href="#section11">Baby confitures</a>
         </div>
-
     </header>
 
- <!-- Section 6 Les gateaux magiques -->
- <section id="section6" class="blockwhite">
 
-    <div class="colun2_2 shadows1">
-
-
-        <img src="../../../public/img/produits/3Confiseries/6Pates_a_tartiner/pates a tartiner.jpg" alt="test">
-
-
-    </div>
-
-    <div class="colun1">
-
-        <h1><u>Nos pâtes à tartiner</u></h1>
-
-        <div class="liste">
-            <ul>
-                <li>Pain d'épices</li>
-                <li>Chocolat noir , orange</li>
-                <li>Chocolat noisettes sans sucre</li>
-                <li>Chocolat blanc</li>
-                <li>Chocolat noir sans sucre</li>
-
-
-            </ul>
-
-        </div>
-
-        <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
-
-    </div>
-
-</section>
-
-    <!-- Section 1 Les cookies -->
+    <!-- Section 1  Nos pâtes à tartiner -->
     <section id="section1" class="blockgrey">
 
         <div class="colun1">
 
+            <h1><u>Nos pâtes à tartiner</u></h1>
+            <span><i>( Sans huile de palme ) </i></span>
+
+            <div class="liste">
+                <ul>
+                    <li>Pain d'épices</li>
+                    <li>Chocolat noir , orange</li>
+                    <li>Chocolat noisettes sans sucre</li>
+                    <li>Chocolat blanc</li>
+                    <li>Chocolat noir sans sucre</li>
+                </ul>
+            </div>
+
+            <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
+
+        </div>
+
+        <img src="../../../public/img/produits/3Confiseries/6Pates_a_tartiner/pates a tartiner.jpg" alt="Pâtes à tartiner" class="imgcolun">
+
+    </section>
+
+
+    <!-- Section 2 Nos Cuillères en chocolat -->
+    <section id="section2" class="blockwhite">
+
+        <div class="colun1">
+
             <h1><u>Nos Cuillères en chocolat</u></h1>
+            <span><i>( À faire fondre dans 200ml de lait ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -100,27 +92,14 @@
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
         </div>
 
-        <div class="colun2_2 shadows2">
-
-
-            <img src="../../../public/img/produits/3Confiseries/1Cuillière_chocolat/presentation cuillère chocolat.jpg" alt="test">
-
-
-        </div>
+            <img src="../../../public/img/produits/3Confiseries/1Cuillière_chocolat/presentation cuillère chocolat.jpg" alt="Cuillères en chocolat" class="imgcolun2">
 
     </section>
 
-    <!-- Section 2 Nos tablettes -->
 
-    <section id="section2" class="blockwhite">
+    <!-- Section 3 Nos tablettes -->
 
-        <div class="colun2_2 shadows1">
-
-
-            <img src="../../../public/img/produits/3Confiseries/2Tablettes/mini tablette 4.jpg" alt="test">
-
-
-        </div>
+    <section id="section3" class="blockgrey">
 
         <div class="colun1">
 
@@ -146,18 +125,20 @@
                         </ul>
                     </li>
                 </ul>
-                   
-               
             </div>
 
-            <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
+            <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>  
+
         </div>
+
+        <img src="../../../public/img/produits/3Confiseries/2Tablettes/mini tablette 4.jpg" alt="tablettes" class="imgcolun">
 
     </section>
 
-    <!-- Section 3 Les Muffins -->
 
-    <section id="section3" class="blockgrey">
+    <!-- Section 4 Nos cornets gourmands -->
+
+    <section id="section4" class="blockwhite">
 
         <div class="colun1">
 
@@ -168,38 +149,19 @@
                     <li>Cornet pop corn et confiseries dragéifiées</li>
                     <li>Cornet pop corn: boules croustillantes de chocolat</li>
                     <li>Cornet pop corn: Pastilles de couleurs en chocolat</li>
-
-
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
 
-        <div class="colun2_1 shadows2">
-
-            <img src="../../../public/img/produits/3Confiseries/3Cornet_gourmand/cornet gourmand 1.jpg" alt="test">
-
-            <img src="../../../public/img/produits/3Confiseries/3Cornet_gourmand/cornet gourmand dragibus.jpg" alt="test" class="img2">
-
-        </div>
+            <img src="../../../public/img/produits/3Confiseries/3Cornet_gourmand/Cornet.jpg" alt="cornets gourmands" class="imgcolun2">
 
     </section>
 
-    <!-- Section 4 Les cookies -->
 
-    <section id="section4" class="blockwhite">
-
-        <div class="colun2 shadows1">
-
-            <img src="../../../public/img/produits/3Confiseries/4Bonbonnière/friandise 2.jpg" alt="test">
-
-
-
-            <img src="../../../public/img/produits/3Confiseries/4Bonbonnière/friandise 3.jpg" alt="test" class="img2">
-
-
-        </div>
+    <!-- Section 5 Nos bonbonnières -->
+    <section id="section5" class="blockgrey">
 
         <div class="colun1">
 
@@ -228,25 +190,21 @@
                     <li>Petits pois au lard bonbon</li>
                     <li>Coeur au chocolat</li>
                     <li>Sucre d'orges</li>
-
-
-
-
                 </ul>
-
-
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
 
+        <img src="../../../public/img/produits/3Confiseries/4Bonbonnière/Bonbon.jpg" alt="bonbon" class="imgcolun">
+
     </section>
 
 
-    <!-- Section 5 Les Palets sablés -->
+    <!-- Section 6 Nos meringues -->
 
-    <section id="section5" class="blockgrey">
+    <section id="section6" class="blockwhite">
 
         <div class="colun1">
 
@@ -259,34 +217,19 @@
                     <li>Myrtille</li>
                     <li>Châtaigne</li>
                     <li>Vanille</li>
-
                 </ul>
-
-
-
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/3Confiseries/5Meringues/meringue.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/3Confiseries/5Meringues/meringue.jpg" alt="meringues" class="imgcolun2">
 
     </section>
 
-    <!-- Section 8 Les crumbles -->
-    <section id="section8" class="blockwhite">
-
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/3Confiseries/8sucre/sucre.jpg" alt="test">
-
-
-        </div>
+    <!-- Section 7 Nos sucres -->
+    <section id="section7" class="blockgrey">
 
         <div class="colun1">
 
@@ -324,7 +267,6 @@
                     <li>Chocolat</li>
                 </ul>
                 <ul>
-                   
                     <li>Banane</li>
                     <li>Menthe</li>
                     <li>Cola</li>
@@ -339,8 +281,6 @@
                     <li>Notes de Petit Beurre</li>
                     <li>Ananas</li>
                     <li>Sucre de l'écureuil</li>
-
-
                 </ul>
 
             </div>
@@ -349,10 +289,12 @@
 
         </div>
 
+        <img src="../../../public/img/produits/3Confiseries/8sucre/sucre.jpg" alt="Sucre" class="imgcolun">
+
     </section>
 
-    <!-- Section 9 Les cakes -->
-    <section id="section9" class="blockgrey">
+    <!-- Section 8 Nos Baby sucre -->
+    <section id="section8" class="blockwhite">
 
         <div class="colun1">
 
@@ -367,8 +309,7 @@
                     <li>Pêche de vigne</li>
                     <li>Mangue</li>
                     <li>Orange</li>
-                    <li>Barbe à papa</li>
-                    
+                    <li>Barbe à papa</li>    
                 </ul>
                 <ul>
                     <li>Cassis</li>
@@ -397,26 +338,17 @@
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/3Confiseries/8sucre/baby sucre.jpg" alt="test">
-
-
-        </div>
+            <img src="../../../public/img/produits/3Confiseries/8sucre/baby sucre.jpg" alt="Baby sucre" class="imgcolun2">
 
     </section>
 
-       <!-- Section 10- Pâte a tartiner-->
-       <section id="section11" class="blockwhite">
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/1Sucré/16Pate_a_tartiner/kit pates a tartiner montage.jpg" alt="test">
-
-        </div>
+       <!-- Section 9- Pâte a tartiner-->
+       <section id="section9" class="blockgrey">
 
         <div class="colun1">
 
-            <h1><u>Nos Pâtes à tartiner (A faire soit même)</u></h1>
+            <h1><u>Nos Pâtes à tartiner </br>(A faire soi-même)</u></h1>
+            <span><i>( À ajouter: Huile végétale ) </i></span>
 
             <div class="liste">
                 <ul>
@@ -426,21 +358,20 @@
                     <li>Caramel au beurre salé</li>
                     <li>Chocolat au lait , spéculoos</li>
                     <li>Chocolat noir, biscuits croquants</li>
-
                 </ul>
-
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
 
-     
+        <img src="../../../public/img/produits/1Sucré/16Pate_a_tartiner/kit pates a tartiner montage.jpg" alt="Pâtes à tartiner" class="imgcolun">
+
 
     </section>
 
-      <!-- Section 7 Les cakes -->
-      <section id="section7" class="blockgrey">
+      <!-- Section 10 Nos confitures -->
+      <section id="section10" class="blockwhite">
 
         <div class="colun1">
 
@@ -456,34 +387,19 @@
                     <li>Confiture Pour toi: abricot, calisson</li>
                     <li>Confiture Merci !: pomme façon tatin</li>
                     <li>Confiture Félicitations: mandarine nougat</li>
-
                 </ul>
-            
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/3Confiseries/7confiture/confiture.jpg" alt="test">
-
-
-        </div>
-
+            <img src="../../../public/img/produits/3Confiseries/7confiture/Confitures.jpg" alt="confitures" class="imgcolun2">
     
     </section>
 
-     <!-- Section 8 Les crumbles -->
-     <section id="section10" class="blockwhite">
-
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/3Confiseries/" alt="test">
-
-
-        </div>
+     <!-- Section 11 Nos baby confiture -->
+     <section id="section11" class="blockgrey">
 
         <div class="colun1">
 
@@ -501,19 +417,19 @@
                     <li>Baby confiture figues violettes confits</li>
                     <li>Baby confiture mandarine, nougat</li>
                     <li>Baby confiture framboise biscuit rose de Reims</li>
-
                 </ul>
-             
-             
-
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>       
 
         </div>
 
+        <img src="../../../public/img/produits/3Confiseries/7confiture/Baby_confitures.jpg" alt="Baby confiture" class="imgcolun">
+
     </section>
-    <a href="#" class="top"><img src="../../../public/img/top.png" alt=""></a>
+
+     <!-- Bouton Remonte Page -->
+    <a href="accueil.html" class="top"><img src="../../../public/img/top.png" alt="Icone Fleche vers le haut"></a>
 
    
 </body>

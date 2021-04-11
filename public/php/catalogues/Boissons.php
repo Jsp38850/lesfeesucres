@@ -14,10 +14,10 @@
                 <li><a href="#section2" onclick='window.location.reload(false)'>Milkshakes</a></li>
                 <li><a href="#section3" onclick='window.location.reload(false)'>Sirop</a></li>
                 <li><a href="#section4" onclick='window.location.reload(false)'>Cocktails</a></li>
-                <li><a href="#section5" onclick='window.location.reload(false)'>Cocktails enfant</a></li>
-                <li><a href="#section6" onclick='window.location.reload(false)'>Mocktails</a></li>
-                <li><a href="#section7" onclick='window.location.reload(false)'>Cafés</a></li>
-                <li><a href="#section8" onclick='window.location.reload(false)'>Thés</a></li>
+                <li><a href="#section6" onclick='window.location.reload(false)'>Cocktails enfant</a></li>
+                <li><a href="#section7" onclick='window.location.reload(false)'>Mocktails</a></li>
+                <li><a href="#section8" onclick='window.location.reload(false)'>Cafés</a></li>
+                <li><a href="#section9" onclick='window.location.reload(false)'>Thés</a></li>
             </ul>
         </nav>
 
@@ -37,7 +37,7 @@
     </header>
 
 
-    <!-- Section 1 Les cookies -->
+    <!-- Section 1 Nos chocolats chaud -->
     <section id="section1" class="blockgrey">
 
         <div class="colun1">
@@ -59,27 +59,15 @@
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-
-            <img src="../../../public/img/produits/2Boissons/1Chocolat_chaud/chocolat chaud.jpg" alt="test">
-
+            <img src="../../../public/img/produits/2Boissons/1Chocolat_chaud/chocolat chaud.jpg" alt="test" class="imgcolun">
 
         </div>
 
     </section>
 
-    <!-- Section 2 Les Moelleux -->
+    <!-- Section 2 Nos Milkshakes -->
 
     <section id="section2" class="blockwhite">
-
-        <div class="colun2_1 shadows1">
-
-            <img src="../../../public/img/produits/2Boissons/2Milkshake/milkshake banane.jpg" alt="test" class="img2">
-
-            <img src="../../../public/img/produits/2Boissons/2Milkshake//milkshake fraise.jpg" alt="test">
-
-        </div>
 
         <div class="colun1">
 
@@ -98,9 +86,11 @@
 
         </div>
 
+        <img src="../../../public/img/produits/2Boissons/2Milkshake/milkshake banane.jpg" alt="test" class="imgcolun2">
+
     </section>
 
-    <!-- Section 3 Les Muffins -->
+    <!-- Section 3 Nos Sirops -->
 
     <section id="section3" class="blockgrey">
 
@@ -136,11 +126,7 @@
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/2Boissons/3Sirop/sirops.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/2Boissons/3Sirop/sirops.jpg" alt="test" class="imgcolun">
 
     </section>
 
@@ -148,149 +134,136 @@
 
     <section id="section4" class="blockwhite">
 
-        <div class="colun2 shadows1">
-
-            <img src="../../../public/img/produits/2Boissons/4Cocktail/vin chaud.jpg" alt="test">
-
-            <img src="../../../public/img/produits/2Boissons/4Cocktail/cocktail pina colada.jpg" alt="test"
-                class="img2">
-
-
-        </div>
-
         <div class="colun1">
 
-            <h1><u>Nos Cocktails (Partie 1)</u></h1>
+            <h1><u>Nos Cocktails (En tubes)</u></h1>
 
             <div class="liste2">
 
+            <ul>
+                <li> Mojito
+                    <ul>
+                        <li>Menthe et citron</li> 
+                        <li>Fraise, citron, menthe</li>
+                    </ul>
+                </li>
 
-                <ul>
-                    <li>Vin chaud
-                        <ul>
-                            <li>Cannelle, badiane, girofle et cardamone</li> <!-- Sachet -->
-                            <li>Aux épices</li><!-- Tube -->
-                            <li>Festif: pêche</li><!-- Tube -->
-                            <li>Aux fruits</li><!-- bouteille-->
-                        </ul>
-                    </li>
+                <li>Rhum Arrangé
+                    <ul>
+                        <li>Pina colada: noix de coco, banane</li> <!-- Tube -->
+                        <li>Exotique: confiseries, citron vert</li> <!-- Tube -->
+                        <li>Exaltant: orange</li><!-- Tube -->
+                        <li>Coco fraise citron</li><!-- Tube -->
+                        <li>Gourmand: Cannelle, pomme verte</li><!-- Tube -->  
+                    </ul>
+                </li>
+                <li>Vin
+                    <ul>
+                        <li>Vin blanc "Jacqueline": cranberries, grenadine</li><!-- Tube -->
+                        <li>Vin rosé "Fruit passion": papaya, passion</li><!-- Tube -->
 
-                    <li class="ligne2"> Vin
-                        <ul>
-                            <li>Vin blanc "Jacqueline": cranberries, grenadine</li><!-- Tube -->
-                            <li>Vin rosé "Fruit passion": papaya, passion</li><!-- Tube -->
+                    </ul>
+                </li>
+            </ul>
 
-                        </ul>
-                    </li>
-                </ul>
+            <ul>
+                <li>Vodka
+                    <ul>
+                        <li>Filtre d'amour: cranberries, pomme d'amour</li>
+                        <li>Aux blagues: confiseries, caramel</li>
+                        <li>Caïpirinha: citron jaune et vert</li>
+                        <li>Clown: citron, confiseries dragéifiées</li>
+                    </ul>
+                </li>
+            
+                <li>Cocktail
+                    <ul>
+                        <li>Chaleur des îles: anis, fleur d'hibiscus , citron</li><!-- tube-->
+                    </ul>
+                </li>
 
-                <ul>
-                    <li>Rhum Arrangé
-                        <ul>
-                            <li>Pina colada: noix de coco, banane</li> <!-- Tube -->
-                            <li>Exotique: confiseries, citron vert</li> <!-- Tube -->
-                            <li>Exaltant: orange</li><!-- Tube -->
-                            <li>Coco fraise citron</li><!-- Tube -->
-                            <li>Gourmand: Cannelle, pomme verte</li><!-- Tube -->
-                            <li>Citronnelle et fleur d'hibiscus</li><!-- Sachet -->
-                            <li>Créole: Noix de coco, Ananas</li> <!-- Sachet -->
-                            <li>Citronnelle et cranberries</li> <!-- Sachet -->
-                            <li>Citron coco fruit rouge: noix de coco, Citronnelle, cranberries</li> <!-- Sachet -->
-                        </ul>
-                    </li>
+                <li>Vin chaud
+                    <ul>  
+                        <li>Aux épices</li><!-- Tube -->
+                        <li>Festif: pêche</li><!-- Tube -->
+                    </ul>
+                </li>
 
+                <li>Sangria : Fraises, citrons</li>
 
-
-                </ul>
-
-
-            </div>
+                
+            </ul>
+        </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>
 
-
         </div>
+
+        <img src="../../../public/img/produits/2Boissons/4Cocktail/vin chaud.jpg" alt="test" class="imgcolun2">
 
     </section>
 
 
-    <!-- Section 5 Les Palets sablés -->
+    <!-- Section 5 Nos Cocktails (En pot & Bouteille) -->
 
     <section id="section5" class="blockgrey">
 
         <div class="colun1">
 
-            <h1><u>Nos Cocktails (Partie 2)</u></h1>
+            <h1><u>Nos Cocktails</u></h1>
 
             <div class="liste2">
 
-                <ul>
-                    <li>Vodka (En tubes)
-                        <ul>
-                            <li>Filtre d'amour: cranberries, pomme d'amour</li>
-                            <li>Aux blagues: confiseries, caramel</li>
-                            <li>Caïpirinha: citron jaune et vert</li>
-                            <li>Clown: citron, confiseries dragéifiées</li>
-                        </ul>
-                    </li>
+            <ul>
+                <li>Nos cocktails
+                    <ul>
+                        <li>1001 fruits: papaye, carambole , ananas*</li><!-- pot -->
+                        <li>Caraïbes: kiwi, papaye, chips de banane*</li><!-- pot -->
+                        <li>Sensation: pomme, cranberries, myrtille*</li><!-- pot -->
+                        <li>Citronnelle et fleur d'hibiscus*</li><!-- pot -->
+                        <li>Créole: Noix de coco, Ananas*</li> <!-- pot -->
+                        <li>Citronnelle et cranberries*</li><!-- pot -->
+                        <li>Citron coco fruit rouge: noix de coco, Citronnelle, cranberries*</li> <!-- pot -->
 
-                    <li class="ligne2"> Mojito
-                        <ul>
-                            <li>Menthe et citron</li> <!-- Sachet -->
-                            <li>Fraise, citron, menthe</li><!-- tube-->
-                            <li>Citron, menthe</li><!-- tube-->
-                            <li>Fruits: fraise, kiwi, pomme, abricot, ...</li><!-- bouteille-->
-                        </ul>
-                    </li>
-                </ul>
+                        <li>Caïpirinha: citron, melon, papaye, coco**</li><!-- bouteille-->
+                        <li>Pina colada: noix de coco, ananas, banane, abricot**</li><!-- bouteille-->
+                        <li>Love: saveur pomme d'amour**</li><!-- bouteille-->
+                       
+                    </ul>
+                </li>
+            </ul>
 
-                <ul>
-                    <li>Cocktail
-                        <ul>
-                            <li>1001 fruits: papaye, carambole , ananas</li><!-- pot -->
-                            <li>Caraïbes: kiwi, papaye, chips de banane</li><!-- pot -->
-                            <li>Sensation: pomme, cranberries, myrtille</li><!-- pot -->
-                            <li>Chaleur des îles: anis, fleur d'hibiscus , citron</li><!-- tube-->
-                            <li>Caïpirinha: citron, melon, papaye, coco, ...</li><!-- bouteille-->
-                            <li>Pina colada: noix de coco, ananas, banane, abricot</li><!-- bouteille-->
-                            <li>Love: saveur pomme d'amour</li><!-- bouteille-->
-                        </ul>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>Sangria
-                    </li>
-                </ul>
-
-
-
+            <ul>
+                <li>Mojitos
+                    <ul>
+                        <li>Fruits: fraise, kiwi, pomme, abricot**</li><!-- bouteille mojito-->
+                        <li>Citron, menthe*</li><!-- pot mojito-->
+                    </ul>
+                </li>
+                <li>Vin chaud
+                    <ul>
+                         
+                        <li>Cannelle, badiane, girofle et cardamone*</li><!-- pot -->
+                        <li>Aux fruits**</li><!-- bouteille -->
+                            
+                    </ul>
+                </li>
+            </ul>
+            
             </div>
+            <p class="info"><i>*En pot // **En bouteille</i></p>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>
 
-
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/2Boissons/4Cocktail/cocktails.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/2Boissons/4Cocktail/cocktails.jpg" alt="test" class="imgcolun">
 
     </section>
 
 
-    <!-- Section 6 Les gâteaux magiques -->
+    <!-- Section 6 Nos cocktails enfants -->
     <section id="section6" class="blockwhite">
-
-        <div class="colun2_2 shadows1">
-
-
-            <img src="../../../public/img/produits/2Boissons/6Cocktail_enfants/cocktail enfant 2.jpg" alt="test">
-
-
-        </div>
 
         <div class="colun1">
 
@@ -316,9 +289,11 @@
 
         </div>
 
+        <img src="../../../public/img/produits/2Boissons/6Cocktail_enfants/cocktail enfant 2.jpg" alt="test" class="imgcolun2">
+
     </section>
 
-    <!-- Section 7 Les cakes -->
+    <!-- Section 7 Nos Mocktails -->
     <section id="section7" class="blockgrey">
 
         <div class="colun1">
@@ -338,25 +313,13 @@
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/2Boissons/5Mocktail/mocktail.jpg " alt="test">
-
-
-        </div>
+            <img src="../../../public/img/produits/2Boissons/5Mocktail/mocktail.jpg " alt="test" class="imgcolun">
 
     </section>
 
 
-    <!-- Section 8 Les crumbles -->
+    <!-- Section 8 Nos Cafés -->
     <section id="section8" class="blockwhite">
-
-        <div class="colun2_2 shadows1">
-
-            <img src="../../../public/img/produits/2Boissons/7café/café caramel.jpg" alt="test">
-
-
-        </div>
 
         <div class="colun1">
 
@@ -374,12 +337,13 @@
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>
 
-
         </div>
+
+        <img src="../../../public/img/produits/2Boissons/7café/café caramel.jpg" alt="test" class="imgcolun2">
 
     </section>
 
-    <!-- Section 9 Les cakes -->
+    <!-- Section 9 Nos thés -->
     <section id="section9" class="blockgrey">
 
         <div class="colun1">
@@ -394,20 +358,16 @@
                     <li>Apple pie: thé vert, pomme, biscuit, pâte d'amande</li>
                     <li>Congolais: thé vert, gâteau, noix de coco grillée</li>
                     <li>Macaron: thé noir, framboise, violette, rose</li>
-                    <li>Cookie: thé noir, chocolat, zeste d'orange, amande grillée</li>
+                    <li>Coockie: thé noir, chocolat, zeste d'orange, amande grillée</li>
                     <li>Rooibos muffin: rooibos "buisson rouge", biscuit, fruit rouge</li>
                 </ul>
             </div>
 
             <a href="../Accueil.html#contact" class="catalogue">Demander le catalogue</a>
 
-
         </div>
 
-        <div class="colun2_2 shadows2">
-            <img src="../../../public/img/produits/2Boissons/8thé/thé.jpg" alt="Image thé" >
-
-        </div>
+            <img src="../../../public/img/produits/2Boissons/8thé/thé.jpg" alt="Image thé" class="imgcolun" >
 
     </section>
     <a href="#" class="top"><img src="../../../public/img/top.png" alt=""></a>

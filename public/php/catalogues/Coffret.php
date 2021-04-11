@@ -40,7 +40,20 @@
 
             <div class="liste">
                 <ul>
-               <li>Coffret gourmand (sucré)</li>
+               <li>Coffret gourmand (sucré)
+                  <!-- <i class="fas fa-camera">
+                    <span><img src="../../../public/img/produits/7Coffrets/coffret mes gateaux de la semaines.jpg" alt="test" class="imghover"></span>
+                   </i>
+                   <i class="fas fa-utensils">
+                   <span><img src="../../../public/img/produits/7Coffrets/coffret une soirée pour 2.jpg" alt="test" class="imghover"></span>
+
+                   </i>
+                   <i class="fas fa-clipboard-list">
+                       <span>test 1</span>
+                       <span>test 1</span>
+                       <span>test 1</span>
+                   </i>-->
+                </li>
                <li>Coffret "Mes cookies de la semaine"</li>
                <li>Coffret "Joyeux Anniversaire"</li>
                <li>Coffret Kit Mélanges gourmands (salés)</li>
@@ -65,14 +78,6 @@
 
     <section id="section2" class="blockwhite">
 
-        <div class="colun2_1 shadows1">
-
-            <img src="../../../public/img/produits/7Coffrets/coffret pop corn 2.jpg" alt="test">
-
-            <img src="../../../public/img/produits/7Coffrets/coffret une soirée pour 2.jpg" alt="test" class="img2">
-
-        </div>
-
         <div class="colun1">
 
             <h1><u>Nos Coffrets (part 2)</u></h1>
@@ -92,6 +97,7 @@
 
         </div>
 
+        <img src="../../../public/img/produits/7Coffrets/coffret une soirée pour 2.jpg" alt="test" class="imgcolun2">
     </section>
 
      <!-- Section 3 Les Muffins -->
@@ -117,11 +123,7 @@
 
         </div>
 
-        <div class="colun2_2 shadows2">
-
-            <img src="../../../public/img/produits/7Coffrets/coffret rhum arrangé.jpg" alt="test">
-
-        </div>
+            <img src="../../../public/img/produits/7Coffrets/coffret rhum arrangé.jpg" alt="test" class="imgcolun">
 
     </section>
 
@@ -131,9 +133,9 @@
 
         <div class="colun2_1 shadows1">
 
-            <img src="../../../public/img/produits/7Coffrets/coffret gouter.jpg" alt="test">
+            
 
-            <img src="../../../public/img/produits/7Coffrets/collection baby sucre.jpg" alt="test" class="img2">
+           
 
         </div>
 
@@ -155,6 +157,8 @@
 
 
         </div>
+
+        <img src="../../../public/img/produits/7Coffrets/collection baby sucre.jpg" alt="test" class="imgcolun2">
 
     </section>
     <a href="#" class="top"><img src="../../../public/img/top.png" alt=""></a>
